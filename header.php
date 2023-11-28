@@ -12,7 +12,7 @@
                     <p class="up-font-size">A +</p>
                 </div>
                 <div>
-                    <span class="line-font-size">|</span>
+                    <span class="line-font-size ">|</span>
                 </div>
                 <div>
                     <i class="fa-solid fa-eye"></i>
@@ -22,10 +22,10 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container p-2">
             <nav class="navbar navbar-expand-lg navbar-light bg-menu">
                 <div class="container-fluid">
-                    <a class="navbar-brand d-block d-lg-none d-xl-block d-xxl-none box-logo" href="#">
+                    <a class="navbar-brand  box-logo_1" href="#">
                         <img src="assets/images/Logo_main.png" class="logo_main" alt="">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

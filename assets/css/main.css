@@ -18,10 +18,9 @@ A:visited {
 }
 .bg-header{
     background-image: url(../images/bg-header.png);
+    background-repeat:no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 150px;
+    background-position:center;
 }
 .text-font-size{
     font-size: 16px;
@@ -74,6 +73,12 @@ A:visited {
 .box-logo{
     margin: 0px;
     width: 80%;
+    /* display: none; */
+}
+.box-logo_1{
+    margin: 0px;
+    width: 80%;
+    /* display: none; */
 }
 .text-back-office{
     color: #1e1e1e;
@@ -152,6 +157,7 @@ A:visited {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
     opacity: 0.9;
+    /* margin-bottom: 10px; */
 }
 
 .box-content{
@@ -300,11 +306,52 @@ A:visited {
 }
 
 
+.fa-address-book{
+    font-size: 35px;
+    margin-top: 10px;
+    color: #7B2B2A;
+}
+
+.box_icon_book{
+    margin: 2px;
+}
+.box_nag_menu {
+    margin-left: 8px;
+    margin-top: 16px;
+}
+.navbar-menu{
+    color: #636363 !important;
+}
+.navbar-menu.active{
+    color: #000000 !important;
+}
+
+.h-register-user{
+    color: #99405E;
+    font-size: x-large;
+}
+
+.line-auto{
+    width: max-content;
+    border-bottom: 2px solid #7B2B2A!important;
+}
 
 
+.line-color{
+    width: 100%;
+    height: 2px;
+    flex-shrink: 0;
+    background: #7B2B2A;
+}
 
 
+.form-select{
+    border: 1px solid #99405E !important;
+}
 
+.icon-red{
+    color: red;
+}
 
 @media (min-width: 768px) {
     .box_cut{
@@ -318,6 +365,9 @@ A:visited {
     .box-logo{
        width: auto; 
     }
+    .box-logo_1{
+        width: auto; 
+     }
     .box-font-size{
         justify-content: end;
     }
@@ -343,6 +393,15 @@ A:visited {
 
 
 @media (min-width: 1024px) {
+    .h-register-user{
+        color: #99405E;
+        font-size: xx-large;
+    }
+    .box-logo_1{
+        margin: 0px;
+        width: 80%;
+        display: none;
+    }
     .text-banner-1{
         font-size: xx-large;
     }
@@ -360,7 +419,7 @@ A:visited {
     }
     
     .bg-header {
-        height: 460px;
+        height: 270px;
     }
     .box_icon{
         width: 2px;

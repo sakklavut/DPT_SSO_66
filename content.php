@@ -11,6 +11,59 @@
     <div class="container">
         <div class="row justify-content-center p-3">
             <div class="col-xl-12 p-3">
+                <!-- <div class="row">
+                    <div class="col-6">
+                        <div class="nav-link card active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"  role="tab"  >
+                            <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="box-banner-text text-center p-2 ">
+                                <a href="#" class="text-white">ระบบสนับสนุนการปฏิบัติงาน</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="nav-link card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"  role="tab" >
+                            <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="box2-banner-text text-center p-2 ">
+                                <a href="#" class="text-white">ระบบบริการภายใน</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="nav-link card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"  role="tab"  >
+                            <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
+                            <div class="box3-banner-text text-center p-2 ">
+                                <a href="#" class="text-white">ระบบจัดการเพื่อบริการภายนอก</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <!-- <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                        <div class="col-xl-6">
+                            <li class="nav-item ms-2 me-2 mt-2 mb-2" role="presentation">
+                                <div  class="nav-link card active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"  role="tab"  >
+                                    <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
+                                    <div class="box-banner-text text-center p-2 ">
+                                        <a href="#" class="text-white">ระบบสนับสนุนการปฏิบัติงาน</a>
+                                    </div>
+                                </div>
+                             </li>
+                        </div>
+                        <div class="col-xl-6">
+                            <li class="nav-item ms-2 me-2 mt-2 mb-2" role="presentation">
+                                <div  class="nav-link card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"  role="tab"  style="width: 18rem;">
+                                    <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
+                                    <div class="box2-banner-text text-center p-2 ">
+                                        <a href="#" class="text-white">ระบบบริการภายใน</a>
+                                    </div>
+                                </div>
+                             </li>
+                        </div>
+                        <div class="col-xl-6">
+
+                        </div>
+                    </ul> -->
+                </div>
                 <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                     <li class="nav-item ms-2 me-2 mt-2 mb-2" role="presentation">
                         <div  class="nav-link card active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"  role="tab"  style="width: 18rem;">
