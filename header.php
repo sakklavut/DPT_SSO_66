@@ -8,6 +8,7 @@
                 <div class="box_cut">
                     <p class="cut-font-size">A -</p>
                 </div>
+               
                 <div class="box_up">
                     <p class="up-font-size">A +</p>
                 </div>
