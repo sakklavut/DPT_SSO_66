@@ -313,6 +313,16 @@ A:visited {
     color: #7B2B2A;
 }
 
+.fa-clipboard-user{
+    font-size: 35px;
+    margin-top: 10px;
+    color: #7B2B2A;
+}
+.fa-house-chimney{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #7B2B2A;
+}
 .box_icon_book{
     margin: 2px;
 }
@@ -336,6 +346,10 @@ A:visited {
     width: max-content;
     border-bottom: 2px solid #7B2B2A!important;
 }
+.bg-table{
+    background-color: #763837;
+    color: #FFF;
+}
 
 
 .line-color{
@@ -345,6 +359,9 @@ A:visited {
     background: #7B2B2A;
 }
 
+.line-table{
+    border-bottom: 1px solid #7B2B2A!important;
+}
 
 .form-select{
     border: 1px solid #99405E !important;
@@ -384,7 +401,24 @@ A:visited {
     box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.20);
     background-color: #fff;
 }
-
+.but-add{
+    font-size: small;
+    color: #fff;
+    border-radius: 5px;
+    border: #763837;
+    width: auto;
+    padding: 10px;
+    background-color: #7B2B2A;
+}
+.but-add:hover{
+    font-size: small;
+    color: #fff;
+    border-radius: 5px;
+    border: #763837;
+    width: auto;
+    padding: 10px;
+    background-color: #7B2B2A;
+}
 .but-form-register{
     color: #fff;
     border-radius: 5px;
@@ -414,6 +448,12 @@ A:visited {
     font-size: small;
 }
 
+.text-table-edit{
+    color: #000;
+}
+.text-table-edit:hover{
+    color: #000;
+}
 .form-check-input:checked {
     background-color: #7b2b2a !important ;
     border-color: #7b2b2a !important ;
@@ -424,6 +464,52 @@ A:visited {
     height: 1.5em;
    
 }
+.add-possibility{
+    color: #fff;
+}
+.add-possibility:hover{
+    color: #c1c1c1;
+}
+
+.btn-table-edit{
+    font-size: small;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.btn-table-details{
+    font-size: small;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.btn-table-delete{
+    font-size: small;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+
+.page-link{
+    background-color: #763837;
+    color: #fff;
+}
+
+.page-link:hover{
+    background-color: #6b4c4c;
+    color: #fff;
+}
+
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: var(--bs-pagination-active-color);
+    background-color: #F0942D !important;
+    border-color: #F0942D !important;
+}
+
+
+
+
+
+
 
 .form-control{
     border: 1px solid #99405E !important;
@@ -480,6 +566,53 @@ A:visited {
     background-color: #000;
     border-radius: 50%;
 }
+.fa-square-phone{
+    color: #763837;
+    font-size: 20px;
+}
+.fa-envelope{
+    color: #763837;
+    font-size: 20px;
+}
+.fa-user-gear{
+    color: #763837;
+    font-size: 20px;
+}
+.profile-name{
+    margin-top: 10px;
+    font-size: medium;
+}
+.profile-phone{
+    font-size: x-small;
+}
+.profile-email{
+    font-size: x-small;
+}
+.logo-profile {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+.box-phone{
+    text-align: center;
+}
+.h-profile{
+    color: #384D6C;
+    font-weight: 800;
+}
+.d-profile{
+    color: #ABB1BB;
+    font-size: large;
+}
+.text-edit{
+    color: #763837;
+}
+
+
+.d-edit-text{
+    font-size: medium;
+}
 
 @media (min-width: 768px) {
     .box-contact{
@@ -524,6 +657,12 @@ A:visited {
 
 
 @media (min-width: 1024px) {
+    .profile-phone {
+        font-size: medium;
+    }
+    .profile-email{
+        font-size: medium; 
+    }
     .h-register-user{
         color: #99405E;
         font-size: xx-large;
@@ -595,6 +734,29 @@ A:visited {
 
 
   @media (min-width: 1440px) {
+    .logo-profile {
+        height: 250px;
+        width: 250px;
+        background-color: #bbb;
+        border-radius: 50%;
+    }
+    .profile-phone{
+        font-size: large;
+    }
+    .profile-email{
+        font-size: large;
+    }
+    .fa-square-phone {
+        font-size: 35px;
+    }
+    .fa-envelope{
+        font-size: 35px;
+    }
+    .profile-name {
+        margin-top: 10px;
+        text-align: center;
+        font-size: x-large;
+    }
     .text-review-right{
         text-align: right;
         font-size:medium;

@@ -41,7 +41,7 @@
                                 <i class="fa-regular fa-window-minimize"></i>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"> คำขอสิทธิ์เข้าใช้ระบบ </a>
+                                <a class="nav-link" href="possibility.php"> คำขอสิทธิ์เข้าใช้ระบบ </a>
                             </li>
                             <li class="nav-item p-2 d-none d-none d-lg-block d-xl-none d-xxl-block box_icon">
                                 <i class="fa-regular fa-window-minimize"></i>

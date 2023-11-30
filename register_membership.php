@@ -82,7 +82,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-12 col-sm-12 col-12 p-2">
-                            <input class="form-control" id="disabledInput" type="text" placeholder=" " disabled>
+                            <input class="form-control" id="disabledInput" type="text"  disabled>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-12 col-sm-12 col-12  p-2">
-                            <input class="form-control" id="disabledInput" type="text" placeholder=" " disabled>
+                            <input class="form-control" id="disabledInput" type="text" disabled>
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-12 col-sm-12 col-12 p-2">
-                            <input class="form-control" id="disabledInput" type="text" placeholder=" " disabled>
+                            <input class="form-control" id="disabledInput" type="text"  disabled>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-12 col-sm-12 col-12  p-2">
-                            <input class="form-control" id="disabledInput" type="text" placeholder=" " disabled>
+                            <input class="form-control" id="disabledInput" type="text"  disabled>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-12 col-sm-12 col-12 p-2">
-                            <input class="form-control" id="disabledInput" type="text" placeholder=" " disabled>
+                            <input class="form-control" id="disabledInput" type="text"  disabled>
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xl-12 col-sm-12 col-12  p-2">
-                            <input class="form-control" id="disabledInput" type="text" placeholder=" " disabled>
+                            <input class="form-control" id="disabledInput" type="text" disabled>
                         </div>
                     </div>
                 </div>
