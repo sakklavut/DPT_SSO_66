@@ -19,7 +19,6 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.php" class="navbar-menu">หน้าหลัก</a></li>
-                        <li class="breadcrumb-item"><a href="#" class="navbar-menu">คำขอสิทธิ์เข้าใช้ระบบ</a></li>
                         <li class="breadcrumb-item active navbar-menu" aria-current="page">คำขอสิทธิ์เข้าใช้ระบบ</li>
                     </ol>
                 </nav>
@@ -50,14 +49,14 @@
                 <table class="table">
                     <thead class="bg-table">
                         <tr>
-                            <th scope="col">ลำดับ</th>
-                            <th scope="col">รายการระบบ</th>
+                            <th scope="col" class="text-center">ลำดับ</th>
+                            <th scope="col" style="width: 30%;">รายการระบบ</th>
                             <th scope="col">สถานะ</th>             
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="line-table">
-                            <th scope="row">1</th>
+                            <th scope="row" class="text-center">1</th>
                             <td>ระบบงานแผน</td>
                             <td>
                                 <div class="d-flex justify-content-between">
@@ -70,14 +69,20 @@
                                                 <i class="fa-solid fa-pen-to-square mx-2"></i>แก้ไข
                                             </a>
                                         </button>
-                                        <button type="button" class="btn btn-secondary btn-table-details"><i class="fa-solid fa-magnifying-glass mx-2"></i>ดูรายละเอีนด</button>
-                                        <button type="button" class="btn btn-success btn-table-delete"><i class="fa-regular fa-trash-can mx-2"></i>ลบ</button>
+                                        <button type="button" class="btn btn-success btn-table-details">
+                                            <a href="view_possibility.php" class="text-table-view">
+                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                            </a>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-table-delete" data-bs-toggle="modal" data-bs-target="#delete_but">
+                                            <i class="fa-regular fa-trash-can mx-2"></i>ลบ
+                                        </button>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="line-table">
-                            <th scope="row">2</th>
+                            <th scope="row" class="text-center">2</th>
                             <td>ระบบบริการตรวจสอบข้อมูลการขออนุญาตปลูกสร้างอาคารหรือสิ่งปลูกสร้าง</td>
                             <td>
                                 <div class="d-flex justify-content-between">
@@ -85,15 +90,25 @@
                                        <p>ระบบอนุมัติ</p>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-warning btn-table-edit"><i class="fa-solid fa-pen-to-square mx-2"></i>แก้ไข</button>
-                                        <button type="button" class="btn btn-secondary btn-table-details"><i class="fa-solid fa-magnifying-glass mx-2"></i>ดูรายละเอีนด</button>
-                                        <button type="button" class="btn btn-success btn-table-delete"><i class="fa-regular fa-trash-can mx-2"></i>ลบ</button>
+                                        <button type="button" class="btn btn-warning btn-table-edit">
+                                            <a href="edit_possibility.php" class="text-table-edit">
+                                                <i class="fa-solid fa-pen-to-square mx-2"></i>แก้ไข
+                                            </a>
+                                        </button>
+                                        <button type="button" class="btn btn-success btn-table-details">
+                                            <a href="view_possibility.php" class="text-table-view">
+                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                            </a>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-table-delete" data-bs-toggle="modal" data-bs-target="#delete_but">
+                                            <i class="fa-regular fa-trash-can mx-2"></i>ลบ
+                                        </button>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="line-table">
-                            <th scope="row">3</th>
+                            <th scope="row" class="text-center">3</th>
                             <td>ระบบผู้รับจ้างงานก่อสร้าง</td>
                             <td>
                                 <div class="d-flex justify-content-between">
@@ -101,9 +116,19 @@
                                        <p>ระบบอนุมัติ</p>
                                     </div>
                                     <div>
-                                        <button type="button" class="btn btn-warning btn-table-edit"><i class="fa-solid fa-pen-to-square mx-2"></i>แก้ไข</button>
-                                        <button type="button" class="btn btn-secondary btn-table-details"><i class="fa-solid fa-magnifying-glass mx-2"></i>ดูรายละเอีนด</button>
-                                        <button type="button" class="btn btn-success btn-table-delete"><i class="fa-regular fa-trash-can mx-2"></i>ลบ</button>
+                                        <button type="button" class="btn btn-warning btn-table-edit">
+                                            <a href="edit_possibility.php" class="text-table-edit">
+                                                <i class="fa-solid fa-pen-to-square mx-2"></i>แก้ไข
+                                            </a>
+                                        </button>
+                                        <button type="button" class="btn  btn-success btn-table-details">
+                                            <a href="view_possibility.php" class="text-table-view">
+                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                            </a>
+                                        </button>
+                                        <button type="button" class="btn btn-danger btn-table-delete" data-bs-toggle="modal" data-bs-target="#delete_but">
+                                            <i class="fa-regular fa-trash-can mx-2"></i>ลบ
+                                        </button>
                                     </div>
                                 </div>
                             </td>
@@ -131,6 +156,62 @@
         </nav>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+<!-- Modal ลบ ปุ่ม  -->
+<div class="modal fade" id="delete_but" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ยืนยันการลบ</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+         <small class="text-danger">* ยืนยันการลบคำขอสิทธิ์เข้าใช้งานระบบ</small>  
+      </div>
+      <div class="row">
+            <div class="col-xl-12 text-center p-3">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#message_delete" data-bs-dismiss="modal" class="but-form-register">ยืนยันการลบ</button>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal แจ้งลบ  -->
+<div class="modal fade" id="message_delete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                    <i class="fa-solid fa-check"></i>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                     <p>ลบคำขอสิทธิ์เข้าใช้ระบบเสร็จสิ้น</p>
+               </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 
 <?php include('footer.php') ?> 
 <?php include ('combottom.php') ?>

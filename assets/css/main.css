@@ -454,6 +454,16 @@ A:visited {
 .text-table-edit:hover{
     color: #000;
 }
+
+.text-table-view{
+    color: #FFF;
+}
+.text-table-view:hover{
+    color: #FFF;
+}
+
+
+
 .form-check-input:checked {
     background-color: #7b2b2a !important ;
     border-color: #7b2b2a !important ;
@@ -613,6 +623,20 @@ A:visited {
 .d-edit-text{
     font-size: medium;
 }
+
+.text-status-oragne{
+    color: orange;
+}
+.text-status-green{
+    color: green;
+}
+.text-status-red{
+    color: red;
+}
+
+
+
+
 
 @media (min-width: 768px) {
     .box-contact{

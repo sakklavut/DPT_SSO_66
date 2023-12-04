@@ -47,7 +47,7 @@
                                 <i class="fa-regular fa-window-minimize"></i>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">ติดตามสถานะ</a>
+                                <a class="nav-link" href="status.php">ติดตามสถานะ</a>
                             </li>
                         </ul>
                     </div>
@@ -66,7 +66,7 @@
                                     พิจิตรา ใจเย็น
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">แก้ไขข้อมูลสมาชิก</a></li>
+                                    <li><a class="dropdown-item" href="profile.php">แก้ไขข้อมูลสมาชิก</a></li>
                                     <li><a class="dropdown-item" href="#">ออกจากระบบ</a></li>
                                 </ul>
                             </li>

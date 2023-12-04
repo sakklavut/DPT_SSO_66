@@ -150,6 +150,110 @@
                        </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xl-6  col-sm-6">
+                        <div class="row py-2">
+                            <div class="col-xl-6 col-6">
+                                <label class="m-0 h-profile">คำนำหน้า</label>
+                            </div>
+                            <div class="col-xl-6 col-12">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="นางสาว" disabled>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6  col-sm-6">
+                        <div class="row py-2">
+                            <div class="col-xl-6 col-6">
+                                <label class="m-0 h-profile">ชื่อ (ภาษาไทย)</label>
+                            </div>
+                            <div class="col-xl-6 col-12">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="พิจิตรา" disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6  col-sm-6">
+                        <div class="row py-2">
+                            <div class="col-xl-6 col-6">
+                                <label class="m-0 h-profile">นามสกุล (ภาษาไทย)</label>
+                            </div>
+                            <div class="col-xl-6 col-12">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ใจเย็น" disabled>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6  col-sm-6">
+                        <div class="row py-2">
+                            <div class="col-xl-6 col-6">
+                                <label class="m-0 h-profile">ชื่อ (ภาษาอังกฤษ)</label>
+                            </div>
+                            <div class="col-xl-6 col-12">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phichitra" disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6  col-sm-6">
+                        <div class="row py-2">
+                            <div class="col-xl-6 col-6">
+                                <label class="m-0 h-profile">นามสกุล (ภาษาไทย)</label>
+                            </div>
+                            <div class="col-xl-6 col-12">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jaijen" disabled>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6  col-sm-6">
+                        <div class="row py-2">
+                            <div class="col-xl-6 col-6">
+                                <label class="m-0 h-profile">ตำแหน่ง</label>
+                            </div>
+                            <div class="col-xl-6 col-12">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" disabled>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6  col-sm-6">
+                        <div class="row py-2">
+                            <div class="col-xl-6 col-6">
+                                <label class="m-0 h-profile">รหัสผ่าน</label>
+                            </div>
+                            <div class="col-xl-6 col-12">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="***********" disabled>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6  col-sm-6">
+                        <div class="row py-2">
+                            <div class="col-xl-6 col-6">
+                                <label class="m-0 h-profile">Username</label>
+                            </div>
+                            <div class="col-xl-6 col-12">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Waroonrote.ka" disabled>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-sm-6">
+                        <div class="row py-2">
+                            <div class="col-xl-6 col-6">
+                                <label class="m-0 h-profile">ยืนยันรหัสผ่าน</label>
+                            </div>
+                        <div class="col-xl-6 col-12">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="***********" disabled>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="shadow-sm p-3 mb-5 bg-body rounded">
                 <div class="row">
@@ -184,74 +288,6 @@
                                 </div>
                                 <div class="col-xl-6 col-12">
                                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="พนักงานราชการ" disabled>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">คำนำหน้า</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="นางสาว" disabled>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">ชื่อ (ภาษาไทย)</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="พิจิตรา" disabled>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">นามสกุล (ภาษาไทย)</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ใจเย็น" disabled>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">ชื่อ (ภาษาอังกฤษ)</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phichitra" disabled>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">นามสกุล (ภาษาไทย)</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jaijen" disabled>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">ตำแหน่ง</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" disabled>
                                 </div>
                             </div>
                         </div>
@@ -301,44 +337,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">Username</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Waroonrote.ka" disabled>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">รหัสผ่าน</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="***********" disabled>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-6 col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">ยืนยันรหัสผ่าน</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="***********" disabled>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
                         <div class="col-xl-12 text-center">
-                            <button type="button" class="but-form-register">แก้ไขข้อมูลสมาชิก</button>
+                            <button type="button"  data-bs-toggle="modal" data-bs-target="#edit_profile" data-bs-dismiss="modal"  class="but-form-register">แก้ไขข้อมูลสมาชิก</button>
                         </div>
                     </div>
                 </form>
@@ -346,6 +346,57 @@
         </div>
     </div>
 </div>
+
+
+
+<!-- Modal แก้ไข ปุ่ม  -->
+<div class="modal fade" id="edit_profile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ยืนยันแก้ไขโปรไฟล์</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+         <small class="text-danger">* ยืนยันการแก้ไขโปรไฟล์</small>  
+      </div>
+      <div class="row">
+            <div class="col-xl-12 text-center p-3">
+                <button type="button" data-bs-toggle="modal" data-bs-target="#save_but" data-bs-dismiss="modal" class="but-form-register">บันทึก</button>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Modal คอมเฟิม   -->
+<div class="modal fade" id="save_but" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                    <i class="fa-solid fa-check"></i>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                     <p>แก้ไขโปรไฟล์เสร็จสิ้น</p>
+               </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 
 <?php include('footer.php') ?> 
 <?php include ('combottom.php') ?>
