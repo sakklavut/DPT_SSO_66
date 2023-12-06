@@ -11,7 +11,7 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="d-flex">
+        <div class="d-flex padding-nag">
             <div class="box_icon_book">
                 <i class="fa-solid fa-house-chimney"></i>
             </div>
@@ -30,16 +30,18 @@
        <hr class="line-color">
     </div>
     <div class="row">
+       <div class="col-xl-12">
         <div class="d-flex justify-content-end">
-            <div class="my-2 mx-2">
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>จำนวนรายการ  10</option>
-                    <option value="1">10</option>
-                    <option value="2">20</option>
-                    <option value="3">30</option>
-                </select>
+                <div class="m-2">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>จำนวนรายการ  10</option>
+                        <option value="1">10</option>
+                        <option value="2">20</option>
+                        <option value="3">30</option>
+                    </select>
+                </div>
             </div>
-        </div>
+       </div>
     </div>
     <div class="row">
         <div class="col-xl-12">
@@ -63,8 +65,8 @@
                                 <td>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <button type="button" class="btn btn-success btn-table-details text-table-view" data-bs-toggle="modal" data-bs-target="#table_status" data-bs-dismiss="modal">
-                                                    <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                            <button type="button" class="btn btn-success btn-table-details text-table-view" data-toggle="modal" data-target="#table_status">
+                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
                                             </button>
                                         </div>
                                     </div>
@@ -78,8 +80,8 @@
                                 <td>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <button type="button" class="btn btn-success btn-table-details text-table-view" data-bs-toggle="modal" data-bs-target="#table_status" data-bs-dismiss="modal">
-                                                    <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                            <button type="button" class="btn btn-success btn-table-details text-table-view" data-toggle="modal" data-target="#table_status">
+                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
                                             </button>
                                         </div>
                                     </div>
@@ -93,8 +95,8 @@
                                 <td>
                                     <div class="d-flex justify-content-between">
                                         <div>
-                                            <button type="button" class="btn btn-success btn-table-details text-table-view" data-bs-toggle="modal" data-bs-target="#table_status" data-bs-dismiss="modal">
-                                                    <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                            <button type="button" class="btn btn-success btn-table-details text-table-view" data-toggle="modal" data-target="#table_status">
+                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
                                             </button>
                                         </div>
                                     </div>
@@ -138,7 +140,9 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">สถานะการดำเนินการขอสิทธ์การใช้งานระบบ SSO</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
       <div class="modal-body text-center">
                 <div class="table-responsive">

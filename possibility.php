@@ -10,38 +10,42 @@
     </div>
 </div>
 <div class="container">
-    <div class="row">
-        <div class="d-flex">
-            <div class="box_icon_book">
-                <i class="fa-solid fa-house-chimney"></i>
+    <div class="row pt-2">
+       <div class="col-xl-12">
+            <div class="d-flex padding-nag">
+                <div class="box_icon_book">
+                    <i class="fa-solid fa-house-chimney"></i>
+                </div>
+                <div class="box_nag_menu">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb m-">
+                            <li class="breadcrumb-item"><a href="index.php" class="navbar-menu">หน้าหลัก</a></li>
+                            <li class="breadcrumb-item active navbar-menu" aria-current="page">คำขอสิทธิ์เข้าใช้ระบบ</li>
+                        </ol>
+                    </nav>
+                </div>
             </div>
-            <div class="box_nag_menu">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu">หน้าหลัก</a></li>
-                        <li class="breadcrumb-item active navbar-menu" aria-current="page">คำขอสิทธิ์เข้าใช้ระบบ</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
+       </div>
     </div>
     <div class="row">
        <hr class="line-color">
     </div>
     <div class="row">
+       <div class="col-xl-12">
         <div class="d-flex justify-content-end">
-            <div class="my-2 mx-2">
-                <button type="button" class="but-add"><a href="add_possibility.php" class="add-possibility">เพิ่มข้อมูลขอใช้สิทธิ์</a></button>
+                <div class="m-2">
+                    <button type="button" class="but-add"><a href="add_possibility.php" class="add-possibility">เพิ่มข้อมูลขอใช้สิทธิ์</a></button>
+                </div>
+                <div class="m-2">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>จำนวนรายการ  10</option>
+                        <option value="1">10</option>
+                        <option value="2">20</option>
+                        <option value="3">30</option>
+                    </select>
+                </div>
             </div>
-            <div class="my-2 mx-2">
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>จำนวนรายการ  10</option>
-                    <option value="1">10</option>
-                    <option value="2">20</option>
-                    <option value="3">30</option>
-                </select>
-            </div>
-        </div>
+       </div>
     </div>
     <div class="row">
         <div class="col-xl-12">
@@ -74,7 +78,7 @@
                                                 <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
                                             </a>
                                         </button>
-                                        <button type="button" class="btn btn-danger btn-table-delete" data-bs-toggle="modal" data-bs-target="#delete_but">
+                                        <button class="btn btn-danger btn-table-delete" data-toggle="modal" data-target="#delete_but">
                                             <i class="fa-regular fa-trash-can mx-2"></i>ลบ
                                         </button>
                                     </div>
@@ -158,35 +162,25 @@
 </div>
 
 
-
-
-
-
-
-
-
-<!-- Modal ลบ ปุ่ม  -->
-<div class="modal fade" id="delete_but" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<!-- Modal delete_but -->
+<div class="modal fade" id="delete_but" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">ยืนยันการลบ</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
+
       <div class="modal-body text-center">
          <small class="text-danger">* ยืนยันการลบคำขอสิทธิ์เข้าใช้งานระบบ</small>  
       </div>
-      <div class="row">
+        <div  class="row">
             <div class="col-xl-12 text-center p-3">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#message_delete" data-bs-dismiss="modal" class="but-form-register">ยืนยันการลบ</button>
+                <button type="button" class="btn but-form-register" id="delete_but" data-toggle="modal" data-target="#message_delete">ยืนยันการลบ</button>
+                <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#message_delete" data-bs-dismiss="modal" class="but-form-register">ยืนยันการลบ</button> -->
             </div>
         </div>
     </div>
   </div>
 </div>
-
-
-<!-- Modal แจ้งลบ  -->
+  
+<!-- Modal ยืนยันลบ  -->
 <div class="modal fade" id="message_delete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -205,6 +199,7 @@
     </div>
   </div>
 </div>
+
 
 
 

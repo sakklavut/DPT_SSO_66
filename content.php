@@ -11,89 +11,64 @@
     <div class="container">
         <div class="row justify-content-center p-3">
             <div class="col-xl-12 p-3">
-                <!-- <div class="row">
-                    <div class="col-6">
-                        <div class="nav-link card active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"  role="tab"  >
-                            <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
-                            <div class="box-banner-text text-center p-2 ">
-                                <a href="#" class="text-white">ระบบสนับสนุนการปฏิบัติงาน</a>
+                <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item m-2" role="presentation">
+                        <button class="nav-link box-banner-center p-2 active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <img src="assets/images/banner.png" class="card-img-top img-fluid box-img-banner" alt="...">
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="nav-link card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"  role="tab" >
-                            <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
-                            <div class="box2-banner-text text-center p-2 ">
-                                <a href="#" class="text-white">ระบบบริการภายใน</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="nav-link card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"  role="tab"  >
-                            <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
-                            <div class="box3-banner-text text-center p-2 ">
-                                <a href="#" class="text-white">ระบบจัดการเพื่อบริการภายนอก</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="row">
-                    <!-- <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-                        <div class="col-xl-6">
-                            <li class="nav-item ms-2 me-2 mt-2 mb-2" role="presentation">
-                                <div  class="nav-link card active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"  role="tab"  >
-                                    <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
-                                    <div class="box-banner-text text-center p-2 ">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="box-banner-text text-center p-2">
                                         <a href="#" class="text-white">ระบบสนับสนุนการปฏิบัติงาน</a>
                                     </div>
                                 </div>
-                             </li>
-                        </div>
-                        <div class="col-xl-6">
-                            <li class="nav-item ms-2 me-2 mt-2 mb-2" role="presentation">
-                                <div  class="nav-link card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"  role="tab"  style="width: 18rem;">
-                                    <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
-                                    <div class="box2-banner-text text-center p-2 ">
+                            </div>    
+                        </button>
+                    </li>
+                    <li class="nav-item m-2" role="presentation">
+                        <button class="nav-link box-banner-center  p-2" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                            <div class="row">
+                                <div class="col-xl-12 text-center">
+                                    <img src="assets/images/banner_2.png" class="card-img-top img-fluid box-img-banner" alt="...">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="box2-banner-text text-center p-2">
                                         <a href="#" class="text-white">ระบบบริการภายใน</a>
                                     </div>
                                 </div>
-                             </li>
-                        </div>
-                        <div class="col-xl-6">
-
-                        </div>
-                    </ul> -->
-                </div>
-                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-                    <li class="nav-item ms-2 me-2 mt-2 mb-2" role="presentation">
-                        <div  class="nav-link card active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"  role="tab"  style="width: 18rem;">
-                            <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
-                            <div class="box-banner-text text-center p-2 ">
-                                <a href="#" class="text-white">ระบบสนับสนุนการปฏิบัติงาน</a>
-                            </div>
-                        </div>
+                            </div>    
+                        </button>
                     </li>
-                    <li class="nav-item ms-2 me-2 mt-2 mb-2" role="presentation">
-                        <div  class="nav-link card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"  role="tab"  style="width: 18rem;">
-                            <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
-                            <div class="box2-banner-text text-center p-2 ">
-                                <a href="#" class="text-white">ระบบบริการภายใน</a>
+                    <li class="nav-item m-2" role="presentation">
+                        <button class="nav-link box-banner-center p-2" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <img src="assets/images/banner_3.png" class="card-img-top img-fluid box-img-banner" alt="...">
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li class="nav-item ms-2 me-2 mt-2 mb-2" role="presentation">
-                        <div  class="nav-link card" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"  role="tab"  style="width: 18rem;">
-                            <img src="assets/images/banner.jpg" class="card-img-top img-fluid" alt="...">
-                            <div class="box3-banner-text text-center p-2 ">
-                                <a href="#" class="text-white">ระบบจัดการเพื่อบริการภายนอก</a>
-                            </div>
-                        </div>
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="box3-banner-text text-center p-2">
+                                        <a href="#" class="text-white">ระบบจัดการเพื่อบริการภายนอก</a>
+                                    </div>
+                                </div>
+                            </div>    
+                        </button>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
+
+
+
+
 <div class="container">
     <div class="row">
         <div class="col-xl-12">
@@ -321,4 +296,6 @@
         </div>
     </div>
 </div>
+
+
 

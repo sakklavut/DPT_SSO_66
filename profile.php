@@ -11,9 +11,9 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="d-flex">
+        <div class="d-flex padding-nag">
             <div class="box_icon_book">
-                <i class="fa-solid fa-clipboard-user"></i>
+                <i class="fa-solid fa-house-chimney"></i>
             </div>
             <div class="box_nag_menu">
                 <nav aria-label="breadcrumb">
@@ -51,7 +51,7 @@
                     </div>
                     <div class="row my-2">
                         <div class="col-2 col-xl-2 text-center">
-                            <i class="fa-solid fa-envelope"></i>
+                            <i class="fa-solid fa-paper-plane"></i>
                         </div>
                         <div class="col-10 col-xl-10">
                             <p class="profile-email m-0">waroonrote@hotmail.com</p>
@@ -259,7 +259,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="d-flex">
-                            <div class="ms-2">
+                            <div class="mr-2">
                                 <i class="fa-solid fa-user-gear"></i> 
                             </div>
                             <div class="ms-2">
@@ -336,12 +336,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-xl-12 text-center">
-                            <button type="button"  data-bs-toggle="modal" data-bs-target="#edit_profile" data-bs-dismiss="modal"  class="but-form-register">แก้ไขข้อมูลสมาชิก</button>
-                        </div>
-                    </div>
                 </form>
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                        <button class="but-form-register" data-toggle="modal" data-target="#edit_but">แก้ไขข้อมูลสมาชิก</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -349,8 +349,10 @@
 
 
 
-<!-- Modal แก้ไข ปุ่ม  -->
-<div class="modal fade" id="edit_profile" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+
+<!-- Modal แก้ไข ปุ่ม -->
+<div class="modal fade" id="edit_but" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -362,18 +364,15 @@
       </div>
       <div class="row">
             <div class="col-xl-12 text-center p-3">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#save_but" data-bs-dismiss="modal" class="but-form-register">บันทึก</button>
+                <button type="button" id="edit_possibility" data-bs-toggle="modal" data-bs-target="#edit_delete" data-bs-dismiss="modal" class="but-form-register">บันทึก</button>
             </div>
         </div>
     </div>
   </div>
 </div>
-
-
-
-
+  
 <!-- Modal คอมเฟิม   -->
-<div class="modal fade" id="save_but" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="edit_delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
@@ -391,6 +390,10 @@
     </div>
   </div>
 </div>
+
+
+
+
 
 
 

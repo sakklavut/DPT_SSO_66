@@ -13,7 +13,9 @@ A:visited {
 }
 .nav-bg-header{
     width: 100%;
-    height: 10px;
+    height: auto;
+    padding: 10px;
+    color: #fff;
     background-color: #7B2B2A;
 }
 .bg-header{
@@ -52,7 +54,6 @@ A:visited {
     margin: 0px;
 }
 .box-font-size{
-    padding-top:10px;
     text-align: center;
 }
 .text-index{
@@ -68,7 +69,7 @@ A:visited {
     margin: 0px;
 }
 .logo_main{
-    width: 100%;
+    width: 80%;
 
 }
 .box-logo{
@@ -155,10 +156,7 @@ A:visited {
 }
 
 .bg-menu{
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity));
-    opacity: 0.9;
-    /* margin-bottom: 10px; */
+    background-color: #636363;;
 }
 
 .box-content{
@@ -269,9 +267,28 @@ A:visited {
     align-self: center;
 }
 
+.tri {
+    top: 202px;
+    position: absolute;
+    width: 59px;
+    height: 50px;
+    border-bottom: 93px solid #dbdbdb;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-right: 60px solid transparent;
+    transform: rotate(180deg);
+}
+
+
+
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #dfdfdf;
     background-color: #7B2B2A;
+    /* border-bottom: 120px solid #222730;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    transform: rotate(180deg); */
 }
 .nav-link {
     display: block;
@@ -305,6 +322,9 @@ A:visited {
 .fa-envelope{
     color: #FFF; 
 }
+.fa-paper-plane{
+    color: #7B2B2A;
+}
 
 
 .fa-address-book{
@@ -327,8 +347,8 @@ A:visited {
     margin: 2px;
 }
 .box_nag_menu {
-    margin-left: 8px;
-    margin-top: 16px;
+    /* margin-left: 8px;
+    margin-top: 16px; */
 }
 .navbar-menu{
     color: #636363 !important;
@@ -365,6 +385,7 @@ A:visited {
 
 .form-select{
     border: 1px solid #99405E !important;
+    height: 100%;
 }
 
 .icon-red{
@@ -423,7 +444,6 @@ A:visited {
     color: #fff;
     border-radius: 5px;
     border: #763837;
-    font-size:larger;
     width: auto;
     padding: 10px;
     background-color: #7B2B2A;
@@ -432,7 +452,7 @@ A:visited {
     color: #fff;
     border-radius: 5px;
     border: #763837;
-    font-size:larger;
+
     width: auto;
     padding: 10px;
     background-color: #763837;
@@ -515,10 +535,13 @@ A:visited {
     border-color: #F0942D !important;
 }
 
+.padding-nag{
+    height: 40px;
+}
 
-
-
-
+.box-margin-poss{
+    margin-left: 5px;
+}
 
 
 .form-control{
@@ -581,7 +604,7 @@ A:visited {
     font-size: 20px;
 }
 .fa-envelope{
-    color: #763837;
+    color: #fff;
     font-size: 20px;
 }
 .fa-user-gear{
@@ -609,7 +632,7 @@ A:visited {
 }
 .h-profile{
     color: #384D6C;
-    font-weight: 800;
+
 }
 .d-profile{
     color: #ABB1BB;
@@ -634,9 +657,26 @@ A:visited {
     color: red;
 }
 
+.box-img-banner{
+    width: 100%;
+    height: 200px;
+}
 
 
-
+.box-banner-center{
+    height: 100%;
+}
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+}
 
 @media (min-width: 768px) {
     .box-contact{
@@ -657,6 +697,7 @@ A:visited {
         width: auto; 
      }
     .box-font-size{
+        padding-top: 10px;
         justify-content: end;
     }
     .text-font-size{
@@ -758,6 +799,10 @@ A:visited {
 
 
   @media (min-width: 1440px) {
+    .box-img-banner {
+        width: 100%;
+        height: 178px;
+    }
     .logo-profile {
         height: 250px;
         width: 250px;
@@ -774,7 +819,7 @@ A:visited {
         font-size: 35px;
     }
     .fa-envelope{
-        font-size: 35px;
+        font-size: 20px;
     }
     .profile-name {
         margin-top: 10px;
@@ -827,3 +872,6 @@ A:visited {
         margin-top: 5px;
     }
   }
+
+
+

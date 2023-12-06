@@ -11,9 +11,9 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="d-flex">
+        <div class="d-flex padding-nag">
             <div class="box_icon_book">
-                <i class="fa-solid fa-address-book"></i>
+                <i class="fa-solid fa-house-chimney"></i>
             </div>
             <div class="box_nag_menu">
                 <nav aria-label="breadcrumb">
@@ -304,14 +304,21 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-12">
-            <div class="row">
-                <div class="col-xl-12 text-center">
-                    <button type="button" class="but-form-register" data-bs-toggle="modal" data-bs-target="#save_register">สมัครสมาชิก</button>
-                </div>
-            </div>
-        </div>
     </form>
+     <div class="row">
+        <div class="col-xl-12 text-center">
+            <button class="but-form-register" data-toggle="modal"  data-dismiss="modal" data-target="#save_register">สมัครสมาชิก</button>
+        </div>
+    </div>
+   
+
+
+
+
+
+
+
+
 
 <!-- Modal -->
 <div class="modal fade" id="save_register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -319,14 +326,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">ยืนยันสมัครสมาชิก</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
       <div class="modal-body">
          <small class="text-danger">* ระบบได้ทำการส่งหมายเลข OTP ไปยังอีเมล์ของคุณเรียบร้อยแล้ว</small>  
       </div>
       <div class="row">
             <div class="col-xl-12 text-center p-3">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#otp" data-bs-dismiss="modal" class="but-form-register">คลิกตรวจสอบข้อมูล</button>
+                <button type="button"  data-toggle="modal" data-target="#otp"  data-dismiss="modal"  class="but-form-register">คลิกตรวจสอบข้อมูล</button>
             </div>
         </div>
     </div>
@@ -445,7 +454,7 @@
       </div>
       <div class="row">
             <div class="col-xl-12 text-center p-2"> 
-                <button type="button" data-bs-toggle="modal" data-bs-target="#message_alert" data-bs-dismiss="modal"   class="but-form-register">ตกลง</button>
+                <button type="button"  data-toggle="modal" data-target="#message_alert"  data-dismiss="modal"   class="but-form-register">ตกลง</button>
             </div>
         </div>
     </div>

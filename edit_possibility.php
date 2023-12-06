@@ -10,7 +10,7 @@
     </div>
 </div>
 <div class="container">
-    <div class="row">
+    <div class="row padding-nag">
         <div class="d-flex">
             <div class="box_icon_book">
                 <i class="fa-solid fa-house-chimney"></i>
@@ -47,7 +47,7 @@
                 <div class="row">
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-support p-3" title="ระบบ One DPT">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-sm-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
                                 </div>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-support p-3" title="ระบบครุภัณฑ์">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
                                 </div>
@@ -71,7 +71,7 @@
                     </div>
                     <div class="col-xl-3 col-sm-6  col-lg-3 p-2">
                         <div class="box-support p-3" title="ระบบผู้รับจ้างงานก่อสร้าง">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -83,7 +83,7 @@
                     </div>
                     <div class="col-xl-3 col-sm-6  col-lg-3 p-2">
                         <div class="box-support p-3" title="ระบบถ่ายทอดสด (DPT Live)">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -97,7 +97,7 @@
                 <div class="row">
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-support p-3" title="ระบบรายงานการรับรองการตรวจสอบอาคาร">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -109,7 +109,7 @@
                     </div>
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-support p-3" title="ระบบ E-learning">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -121,7 +121,7 @@
                     </div>
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-support p-3" title="ระบบการประชุม(DPT e-Meeting)">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -133,7 +133,7 @@
                     </div>
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-support p-3" title="แพลตฟอร์มข้อมูลโยธาธิการและผังเมืองกลาง">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -152,7 +152,7 @@
                 <div class="row">
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-service p-3" title="ระบบสมุดโทรศัพท์">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -164,7 +164,7 @@
                     </div>
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-service p-3" title="ระบบ Intranet">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -176,7 +176,7 @@
                     </div>
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-service p-3" title="ระบบ E-slip">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -195,7 +195,7 @@
                 <div class="row">
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-management p-3" title="ระบบจัดซื้อจัดจ้าง">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -207,7 +207,7 @@
                     </div>
                     <div class="col-xl-3 col-sm-6 col-lg-3 p-2">
                         <div class="box-management p-3 " title="ระบบเว็บไซต์กรมโยธาธิการและผังเมือง">
-                            <div class="row">
+                            <div class="row box-margin-poss">
                                 <div class="col-xl-2 col-2 text-center">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
                                 </div>
@@ -219,22 +219,19 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xl-12 text-center">
-                    <button type="button" data-bs-toggle="modal" data-bs-target="#edit_but" data-bs-dismiss="modal"  class="but-form-register">แก้ไข</button>
-                </div>
-            </div>
-    </form>
+        </form>
+    </div>
+    <div class="row">
+        <div class="col-xl-12 text-center">
+            <button class="but-form-register" data-toggle="modal" data-target="#edit_but">แก้ไข</button>
+        </div>
     </div>
 </div>
 
 
 
-
-
-
-<!-- Modal แก้ไข ปุ่ม  -->
-<div class="modal fade" id="edit_but" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Modal แก้ไข ปุ่ม -->
+<div class="modal fade" id="edit_but" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -246,17 +243,15 @@
       </div>
       <div class="row">
             <div class="col-xl-12 text-center p-3">
-                <button type="button" data-bs-toggle="modal" data-bs-target="#edit_delete" data-bs-dismiss="modal" class="but-form-register">บันทึก</button>
+                <button type="button" id="edit_possibility" data-bs-toggle="modal" data-bs-target="#edit_delete" data-bs-dismiss="modal" class="but-form-register">บันทึก</button>
             </div>
         </div>
     </div>
   </div>
 </div>
-
-
-
+  
 <!-- Modal คอมเฟิม   -->
-<div class="modal fade" id="edit_delete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="edit_delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-body">
@@ -274,6 +269,13 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
 
 
 
