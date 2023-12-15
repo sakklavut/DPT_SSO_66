@@ -1,42 +1,28 @@
 <?php include('comtop.php') ?>
-<?php include('header.php') ?>
-<div class="box-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12 text-center p-3">
-                <h1 class="text-white text-sso">ระบบ Portal (Single Sing - on SSO)</h1>
+<?php include('header_2.php') ?>
+<div class="container main-content mt-3">
+    <div class="row">
+        <div class="d-flex">
+            <div class="box_nag_menu">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu"><i class="fa-solid fa-house-chimney"></i>หน้าหลัก</a></li>
+                        <li class="breadcrumb-item"><a href="possibility.php" class="navbar-menu">คำขอสิทธิ์เข้าใช้ระบบ</a></li>
+                    </ol>
+                </nav>
             </div>
         </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row pt-2">
-       <div class="col-xl-12">
-            <div class="d-flex padding-nag">
-                <div class="box_icon_book">
-                    <i class="fa-solid fa-house-chimney"></i>
-                </div>
-                <div class="box_nag_menu">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb m-">
-                            <li class="breadcrumb-item"><a href="index.php" class="navbar-menu">หน้าหลัก</a></li>
-                            <li class="breadcrumb-item active navbar-menu" aria-current="page">คำขอสิทธิ์เข้าใช้ระบบ</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-       </div>
     </div>
     <div class="row">
        <hr class="line-color">
     </div>
-    <div class="row">
+    <div class="row mb-1">
        <div class="col-xl-12">
         <div class="d-flex justify-content-end">
-                <div class="m-2">
+                <div class="mr-1">
                     <button type="button" class="but-add"><a href="add_possibility.php" class="add-possibility">เพิ่มข้อมูลขอใช้สิทธิ์</a></button>
                 </div>
-                <div class="m-2">
+                <div class="">
                     <select class="form-select" aria-label="Default select example">
                         <option selected>จำนวนรายการ  10</option>
                         <option value="1">10</option>
@@ -53,14 +39,14 @@
                 <table class="table">
                     <thead class="bg-table">
                         <tr>
-                            <th scope="col" class="text-center">ลำดับ</th>
-                            <th scope="col" style="width: 30%;">รายการระบบ</th>
-                            <th scope="col">สถานะ</th>             
+                            <td scope="col" class="text-center">ลำดับ</td>
+                            <td scope="col" style="width: 30%;">รายการระบบ</td>
+                            <td scope="col">สถานะ</td>             
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="line-table">
-                            <th scope="row" class="text-center">1</th>
+                            <td scope="row" class="text-center">1</td>
                             <td>ระบบงานแผน</td>
                             <td>
                                 <div class="d-flex justify-content-between">
@@ -70,23 +56,23 @@
                                     <div>
                                         <button type="button" class="btn btn-warning btn-table-edit">
                                             <a href="edit_possibility.php" class="text-table-edit">
-                                                <i class="fa-solid fa-pen-to-square mx-2"></i>แก้ไข
+                                                <i class="fa-solid fa-pen-to-square mr-1"></i>แก้ไข
                                             </a>
                                         </button>
                                         <button type="button" class="btn btn-success btn-table-details">
                                             <a href="view_possibility.php" class="text-table-view">
-                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                                <i class="fa-solid fa-magnifying-glass mr-1"></i> ดูรายละเอีนด
                                             </a>
                                         </button>
                                         <button class="btn btn-danger btn-table-delete" data-toggle="modal" data-target="#delete_but">
-                                            <i class="fa-regular fa-trash-can mx-2"></i>ลบ
+                                            <i class="fa-regular fa-trash-can mr-1"></i>ลบ
                                         </button>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="line-table">
-                            <th scope="row" class="text-center">2</th>
+                            <td scope="row" class="text-center">2</td>
                             <td>ระบบบริการตรวจสอบข้อมูลการขออนุญาตปลูกสร้างอาคารหรือสิ่งปลูกสร้าง</td>
                             <td>
                                 <div class="d-flex justify-content-between">
@@ -96,23 +82,23 @@
                                     <div>
                                         <button type="button" class="btn btn-warning btn-table-edit">
                                             <a href="edit_possibility.php" class="text-table-edit">
-                                                <i class="fa-solid fa-pen-to-square mx-2"></i>แก้ไข
+                                                <i class="fa-solid fa-pen-to-square mr-1"></i>แก้ไข
                                             </a>
                                         </button>
                                         <button type="button" class="btn btn-success btn-table-details">
                                             <a href="view_possibility.php" class="text-table-view">
-                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                                <i class="fa-solid fa-magnifying-glass mr-1"></i> ดูรายละเอีนด
                                             </a>
                                         </button>
                                         <button type="button" class="btn btn-danger btn-table-delete" data-bs-toggle="modal" data-bs-target="#delete_but">
-                                            <i class="fa-regular fa-trash-can mx-2"></i>ลบ
+                                            <i class="fa-regular fa-trash-can mr-1"></i>ลบ
                                         </button>
                                     </div>
                                 </div>
                             </td>
                         </tr>
                         <tr class="line-table">
-                            <th scope="row" class="text-center">3</th>
+                            <td scope="row" class="text-center">3</td>
                             <td>ระบบผู้รับจ้างงานก่อสร้าง</td>
                             <td>
                                 <div class="d-flex justify-content-between">
@@ -122,16 +108,16 @@
                                     <div>
                                         <button type="button" class="btn btn-warning btn-table-edit">
                                             <a href="edit_possibility.php" class="text-table-edit">
-                                                <i class="fa-solid fa-pen-to-square mx-2"></i>แก้ไข
+                                                <i class="fa-solid fa-pen-to-square mr-1"></i>แก้ไข
                                             </a>
                                         </button>
                                         <button type="button" class="btn  btn-success btn-table-details">
                                             <a href="view_possibility.php" class="text-table-view">
-                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                                <i class="fa-solid fa-magnifying-glass mr-1"></i> ดูรายละเอีนด
                                             </a>
                                         </button>
                                         <button type="button" class="btn btn-danger btn-table-delete" data-bs-toggle="modal" data-bs-target="#delete_but">
-                                            <i class="fa-regular fa-trash-can mx-2"></i>ลบ
+                                            <i class="fa-regular fa-trash-can mr-1"></i>ลบ
                                         </button>
                                     </div>
                                 </div>
@@ -172,7 +158,7 @@
       </div>
         <div  class="row">
             <div class="col-xl-12 text-center p-3">
-                <button type="button" class="btn but-form-register" id="delete_but" data-toggle="modal" data-target="#message_delete">ยืนยันการลบ</button>
+                <button type="button" class="btn but-form-register" data-dismiss="modal" id="delete_but" data-toggle="modal" data-target="#message_delete">ยืนยันการลบ</button>
                 <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#message_delete" data-bs-dismiss="modal" class="but-form-register">ยืนยันการลบ</button> -->
             </div>
         </div>

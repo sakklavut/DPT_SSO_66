@@ -1,11 +1,15 @@
-<div class="bg-footer mt-4">
+<div class="bg-footer">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 text-center p-3">
-                <h4 class="text-white">กรมโยธาธิการและผังเมือง กระทรวงมหาดไทย</h4>
+            <div class="col-xl-12 text-center">
+                <p class="text-white mt-3"> © สงวนลิขสิทธิ์ กรมโยธาธิการและผังเมือง กระทรวงมหาดไทย</p>
             </div>
         </div>
-        <div class="row">
+    </div>
+</div>
+
+        
+        <!-- <div class="row">
             <div class="col-xl-6 text-center">
                <div class="row">
                     <div class="col-xl-12">
@@ -23,6 +27,4 @@
                     </div>
                </div>
             </div>
-        </div>
-    </div>
-</div>
+        </div> -->

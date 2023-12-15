@@ -1,25 +1,12 @@
 <?php include('comtop.php') ?>
-<?php include('header.php') ?>
-<div class="box-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12 text-center p-3">
-                <h1 class="text-white text-sso">ระบบ Portal (Single Sing - on SSO)</h1>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
+<?php include('header_2.php') ?>
+<div class="container main-content  mt-3">
     <div class="row">
-        <div class="d-flex padding-nag">
-            <div class="box_icon_book">
-                <i class="fa-solid fa-house-chimney"></i>
-            </div>
+        <div class="d-flex">
             <div class="box_nag_menu">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu">หน้าหลัก</a></li>
-                        <li class="breadcrumb-item"><a href="#" class="navbar-menu">ข้อมูลสมาชิก</a></li>
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu"><i class="fa-solid fa-house-chimney"></i>หน้าหลัก</a></li>
                         <li class="breadcrumb-item active navbar-menu" aria-current="page">ข้อมูลสมาชิก</li>
                     </ol>
                 </nav>
@@ -31,31 +18,110 @@
     </div>
     <div class="row">
         <div class="col-xl-4 col-sm-12 col-12">
-            <div class="row">
-                <div class="col-xl-12 col-6 text-center">
-                    <img src="assets/images/img-profile.jpg" class="logo-profile " alt="">
+            <div class="shadow-sm p-3 mb-3 bg-body rounded">
+                <div class="row">
+                    <div class="col-xl-12 col-6 text-center">
+                        <img src="assets/images/img-profile.jpg" class="logo-profile " alt="">
+                    </div>
+                    <div class="col-6 col-xl-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="profile-name m-0">นางสาว พิจิตรา ใจเย็น</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <p class="profile-phone m-0">
+                                    <i class="fa-solid fa-square-phone mr-2"></i>
+                                    098-8460-893
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <p class="profile-phone m-0">
+                                <i class="fa-solid fa-paper-plane mr-2"></i>
+                                    waroonrote@hotmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 col-xl-12">
-                    <div class="row my-2">
-                        <div class="col-12">
-                            <p class="profile-name m-0">นางสาว พิจิตรา ใจเย็น</p>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="shadow-sm p-3 mb-5 bg-body rounded">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="d-flex">
+                                    <div class="mr-2">
+                                        <i class="fa-solid fa-user-gear"></i> 
+                                    </div>
+                                    <div class="ms-2">
+                                        <h4 class="text-edit">เเก้ไขข้อมูลสมาชิก</h4>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row my-2">
-                        <div class="col-2 col-xl-2 text-center">
-                            <i class="fa-solid fa-square-phone"></i>
-                        </div>
-                        <div class="col-10 col-xl-10">
-                            <p class="profile-phone m-0">098-8460-893</p>
-                        </div>
-                    </div>
-                    <div class="row my-2">
-                        <div class="col-2 col-xl-2 text-center">
-                            <i class="fa-solid fa-paper-plane"></i>
-                        </div>
-                        <div class="col-10 col-xl-10">
-                            <p class="profile-email m-0">waroonrote@hotmail.com</p>
-                        </div>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-xl-12 col-sm-12">
+                                    <div class="row">
+                                        <div class="col-xl-12 col-12">
+                                            <p class="d-edit-text">แก้ไขรูปโปรไฟล์</p>
+                                        </div>
+                                        <div class="col-xl-12 col-12">
+                                            <!-- <label for="file" button type="file" name="image" class="btn btn-secondary">Upload</button> </label> -->
+                                            <input type="file" id="file" name="image" value="Prebrskaj" style=" width:100%;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12  col-sm-12">
+                                    <div class="row py-2">
+                                        <div class="col-xl-12 col-12">
+                                            <label class="m-0 d-edit-text">เบอร์โทรศัพท์</label>
+                                        </div>
+                                        <div class="col-xl-12 col-12">
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="0988460893">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12  col-sm-12">
+                                    <div class="row py-2">
+                                        <div class="col-xl-12 col-12">
+                                            <label class="m-0 d-edit-text">เบอร์โทรศัพท์สำรอง</label>
+                                        </div>
+                                        <div class="col-xl-12 col-12">
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jaijen" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12  col-sm-12">
+                                    <div class="row py-2">
+                                        <div class="col-xl-12 col-12">
+                                            <label class="m-0 d-edit-text">อีเมล</label>
+                                        </div>
+                                        <div class="col-xl-12 col-12">
+                                            <input type="mail" class="form-control" id="exampleFormControlInput1" placeholder="waroonrote@hotmail.com">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12  col-sm-12">
+                                    <div class="row py-2">
+                                        <div class="col-xl-12 col-12">
+                                            <label class="m-0 d-edit-text">อีเมลสำรอง</label>
+                                        </div>
+                                        <div class="col-xl-12 col-12">
+                                            <input type="mail" class="form-control" id="exampleFormControlInput1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -255,92 +321,9 @@
                     </div>
                 </div>
             </div>
-            <div class="shadow-sm p-3 mb-5 bg-body rounded">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="d-flex">
-                            <div class="mr-2">
-                                <i class="fa-solid fa-user-gear"></i> 
-                            </div>
-                            <div class="ms-2">
-                                <h4 class="text-edit">เเก้ไขข้อมูลสมาชิก</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <form action="">
-                    <div class="row">
-                        <div class="col-xl-6 col-sm-6">
-                            <div class="row">
-                                <div class="col-xl-6 col-6">
-                                    <p class="d-edit-text">แก้ไขรูปโปรไฟล์</p>
-                                </div>
-                                <div class="col-xl-6 col-6">
-                                    <label for="file" button type="file" name="image" class="btn btn-secondary">Upload</button> </label>
-                                    <input type="file" id="file" name="image" value="Prebrskaj" style="visibility:hidden; width:100%;">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">ประเภทบุคลากร</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="พนักงานราชการ" disabled>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">เบอร์โทรศัพท์</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="0988460893">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">เบอร์โทรศัพท์สำรอง</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jaijen" >
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">อีเมล</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="mail" class="form-control" id="exampleFormControlInput1" placeholder="waroonrote@hotmail.com">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6  col-sm-6">
-                            <div class="row py-2">
-                                <div class="col-xl-6 col-6">
-                                    <label class="m-0 d-edit-text">อีเมลสำรอง</label>
-                                </div>
-                                <div class="col-xl-6 col-12">
-                                    <input type="mail" class="form-control" id="exampleFormControlInput1">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="row">
-                    <div class="col-xl-12 text-center">
-                        <button class="but-form-register" data-toggle="modal" data-target="#edit_but">แก้ไขข้อมูลสมาชิก</button>
-                    </div>
+            <div class="row">
+                <div class="col-xl-12 text-center">
+                    <button class="but-form-register" data-toggle="modal" data-target="#edit_but">แก้ไขข้อมูลสมาชิก</button>
                 </div>
             </div>
         </div>
@@ -357,14 +340,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">ยืนยันแก้ไขโปรไฟล์</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
       <div class="modal-body text-center">
          <small class="text-danger">* ยืนยันการแก้ไขโปรไฟล์</small>  
       </div>
       <div class="row">
             <div class="col-xl-12 text-center p-3">
-                <button type="button" id="edit_possibility" data-bs-toggle="modal" data-bs-target="#edit_delete" data-bs-dismiss="modal" class="but-form-register">บันทึก</button>
+                <button type="button" id="edit_possibility" data-toggle="modal" data-target="#edit_delete" data-dismiss="modal" class="but-form-register">บันทึก</button>
             </div>
         </div>
     </div>

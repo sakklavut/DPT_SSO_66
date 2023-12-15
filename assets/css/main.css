@@ -1,10 +1,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html{
+    height: 100%;
+  }
 
 body{
-    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* font-size: 18px; */
     font-family: 'Prompt', sans-serif;
 }
+.main-content{
+    flex: 1 0 auto;
+}
+
+.header{
+    flex: 0 0 auto;
+  }
+  .bg-footer{
+    /* padding: 20px; */
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: #7B2B2A;
+}
+
+.shadow-menu{
+    box-shadow: 0px 2px 2px 0px #d9d9d9;
+}
+
 A:link {
     text-decoration:none;
 }
@@ -19,39 +44,48 @@ A:visited {
     background-color: #7B2B2A;
 }
 .bg-header{
-    background-image: url(../images/bg-header.png);
-    /* background-image: url(../images/bg-header_v2.png); */
+    /* background-image: url(../images/bg-header.png); */
+    background-image: url(../images/bg-header_v2.png);
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
 }
 .text-font-size{
-    font-size: 16px;
+    font-size:10px;
     margin: 0px;
     margin-right: 5px;
+    color: #fff;
+    margin-top: 3px;
 }
 .cut-font-size{
-    font-size: 16px;
+    font-size:10px;
     margin: 0px;
+    color: #fff;
 }
 .up-font-size{
-    font-size: 16px;
+    font-size:10px;
     margin: 0px;
+    color: #fff;
     /* margin-right: 5px; */
 }
 .line-font-size{
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 16px;
-    margin: 1px;
-    /* margin-left: 5px;
-    margin-right: 5px; */
+    color: #fff;
 }
 .fa-eye{
-    font-size: 15px;
     margin-right: 5px;
+    font-size: 14px;
+    color: #fff;
 }
 .text-eye{
-    font-size: 16px;
+    font-size: 12px;
+    margin-top: 3px;
     margin: 0px;
+    color: #fff;
+    margin-top: 3px;
+    
 }
 .box-font-size{
     text-align: center;
@@ -69,7 +103,8 @@ A:visited {
     margin: 0px;
 }
 .logo_main{
-    width: 80%;
+   width: 100%;
+   height: auto;
 
 }
 .box-logo{
@@ -165,9 +200,10 @@ A:visited {
     background-color: #7B2B2A;
 }
 .box-banner{
+    margin-top: 5px;
     width: 100%;
     height: auto;
-    background-color: #EBEBEB;
+    /* background-color: #EBEBEB; */
 }
 .text-sso{
     font-size: smaller;
@@ -179,29 +215,39 @@ A:visited {
 
 .box-banner-text{
     background-color: #003466;
+  
 }
 .box2-banner-text{
     background-color: #006766;
+
 }
 .box3-banner-text{
     background-color: #F7941D;
+ 
 }
 
 .text-banner-1{
     color: #003466;
-    font-size: larger;
-    font-weight: 700;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 .text-banner-box-2{
     color: #006766;
-    font-size: larger;
-    font-weight: 700;
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .text-banner-3{
     color: #F7941D;
-    font-size: larger;
-    font-weight: 700;
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 .bg-box-icon{
     border-radius: 5px;
@@ -209,24 +255,96 @@ A:visited {
     border: 2px solid #003466;
     background-color:  #FFF;
     box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.20);
+    transition: all ease-in-out 0.9s;
+}
+.bg-box-icon:hover{
+    transform: scale(0.9);
 }
 
+.heading-line1 {
+    width: 170px;
+    height: 7px;
+    display: inline-block;
+    background-color: #7b2b2a;
+    vertical-align: top;
+}
 .bg-box-icon-2 {
+    transition: all ease-in-out 0.9s;
     border-radius: 5px;
     margin: 5px;
     border: 2px solid  #006766;
     background-color: #FFF;
     box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.20);
 }
+.bg-box-icon-2:hover{
+    transform: scale(0.9);
+}
 
 
 .bg-box-icon-3 {
+    transition: all ease-in-out 0.9s;
     border-radius: 5px;
     margin: 5px;
     border: 2px solid  #F7941D;
     background-color: #FFF;
     box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.20);
 }
+.bg-box-icon-3:hover{
+    transform: scale(0.9);
+}
+.card-img-top{
+    width: 220px;
+}
+
+.bg-box-icon-center{
+        padding: 5px;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        color: #fff;
+        background-color: #003466;
+        box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.20);
+        transition: all ease-in-out 0.9s;
+}
+.bg-box-icon-center-2{
+    padding: 5px;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #006766;
+    box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.20);
+    transition: all ease-in-out 0.9s;
+}
+.bg-box-icon-center-3{
+    padding: 5px;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #F7941D;
+    box-shadow: 0px 8px 24px 0px rgba(149, 157, 165, 0.20);
+    transition: all ease-in-out 0.9s;
+}
+
+.text-center-banner{
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+
+
+
+
+
+.box_register {
+    transition: all ease-in-out 0.9s;
+    background-color: #7B2B2A;
+    height: auto;
+}
+.box_register:hover {
+    transform: scale(0.9);
+}
+
 
 
 
@@ -279,16 +397,16 @@ A:visited {
     transform: rotate(180deg);
 }
 
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6 !important;
+}
 
 
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #dfdfdf;
     background-color: #7B2B2A;
-    /* border-bottom: 120px solid #222730;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    transform: rotate(180deg); */
+    border-radius: 5px;
 }
 .nav-link {
     display: block;
@@ -301,18 +419,16 @@ A:visited {
 }
 
 .nav-pills .nav-link {
+    border-radius: 5px;
     background-color: #cccc;
     border: 0;
-    border-radius: var(--bs-nav-pills-border-radius);
 }
 
 
 
-.bg-footer{
-    padding: 20px;
-    width: 100%;
-    height: auto;
-    background-color: #7B2B2A;
+
+.main-content{
+ flex: 1 0 auto;
 }
 
 
@@ -339,9 +455,8 @@ A:visited {
     color: #7B2B2A;
 }
 .fa-house-chimney{
-    font-size: 25px;
-    margin-top: 10px;
     color: #7B2B2A;
+    margin-right: 5px;
 }
 .box_icon_book{
     margin: 2px;
@@ -357,12 +472,34 @@ A:visited {
     color: #000000 !important;
 }
 
-.h-register-user{
-    color: #99405E;
-    font-size: x-large;
+.h-register-user {
+    color: #003466;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    width: 180px;
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+
+.nav-tabs .nav-link {
+    width: 180px;
+    margin-bottom: -1px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
 }
 
 .line-auto{
+    
     width: max-content;
     border-bottom: 2px solid #7B2B2A!important;
 }
@@ -372,13 +509,14 @@ A:visited {
 }
 
 
-.line-color{
+.line-color {
     width: 100%;
     height: 2px;
     flex-shrink: 0;
+    margin: 0px;
+    margin-bottom: 10px;
     background: #7B2B2A;
 }
-
 .line-table{
     border-bottom: 1px solid #7B2B2A!important;
 }
@@ -394,12 +532,24 @@ A:visited {
 
 .text-support{
     color: #003466;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 .text-service{
     color: #006766;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 .text-management{
     color:#F7941D;
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 .box-support{
     width: 100%;
@@ -578,8 +728,12 @@ A:visited {
 }
 
 .box_cut{
-    /* margin-left: 10px;
-    margin-right: 10px; */
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.box_up{
+    margin-top: 3px;
+    margin-right: 5px;
 }
 .button_white {
     height: 25px;
@@ -616,10 +770,10 @@ A:visited {
     font-size: medium;
 }
 .profile-phone{
-    font-size: x-small;
+    /* font-size: x-small; */
 }
 .profile-email{
-    font-size: x-small;
+    /* font-size: x-small; */
 }
 .logo-profile {
     height: 100px;
@@ -635,8 +789,7 @@ A:visited {
 
 }
 .d-profile{
-    color: #ABB1BB;
-    font-size: large;
+    color: #000000;
 }
 .text-edit{
     color: #763837;
@@ -659,12 +812,25 @@ A:visited {
 
 .box-img-banner{
     width: 100%;
-    height: 200px;
+    height: auto;
 }
 
 
+.nag-bar{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: #7b2b2a;
+}
+
 .box-banner-center{
-    height: 100%;
+    width: 100%;
+    height: auto;
+    transition: all ease-in-out 0.9s;
+
+}
+.box-banner-center:hover{
+    transform: scale(0.9);
 }
 .breadcrumb {
     display: -ms-flexbox;
@@ -678,18 +844,46 @@ A:visited {
     border-radius: 0.25rem;
 }
 
+.box-img-banner {
+    width: 100%;
+    height: 120px;
+}
+/* .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+  }
+  .main {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 115px;
+    overflow: auto;
+  } */
+
+
 @media (min-width: 768px) {
     .box-contact{
         text-align: center;
     }
-    .box_cut{
+    /* .box_cut{
         margin-left: 10px;
         margin-right: 10px;
     }
     .box_up{
         margin-left: 10px;
         margin-right: 10px;
-    }
+    } */
     .box-logo{
        width: auto; 
     }
@@ -697,49 +891,49 @@ A:visited {
         width: auto; 
      }
     .box-font-size{
-        padding-top: 10px;
+       
         justify-content: end;
     }
     .text-font-size{
-        font-size: 18px;
+        font-size: 12px;
     }
     .cut-font-size{
-        font-size: 18px;
+        font-size: 12px;
     }
     .up-font-size{
-        font-size: 18px;
+        font-size: 12px;
     }
-    .line-font-size{
-        font-size: 18px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .text-eye{
-        font-size: 18px;
-    }
+
+    
   }
 
 
 
 @media (min-width: 1024px) {
+    .h-register-user{
+        color: #003466;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 10px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
     .profile-phone {
-        font-size: medium;
+        /* font-size: medium; */
     }
     .profile-email{
-        font-size: medium; 
+        /* font-size: medium;  */
     }
-    .h-register-user{
-        color: #99405E;
-        font-size: xx-large;
-    }
+
     .box-logo_1{
         margin: 0px;
         width: 80%;
         display: none;
     }
-    .text-banner-1{
-        font-size: xx-large;
-    }
+    /* .text-banner-1{
+        margin-top: 25px;
+        margin-bottom: 30px;
+    } */
     .text-banner-2{
         font-size: xx-large;
     }
@@ -750,21 +944,19 @@ A:visited {
         font-size: xx-large;
     }
     .text-sso{
-        font-size: xx-large;
+        font-size: 18px;
     }
     
-    .bg-header {
+    /* .bg-header {
         height: 180px;
-    }
+    } */
     .box_icon{
         width: 2px;
     }
     .welcome-text{
         font-size: smaller
     }
-    .nav-link{
-        font-size: smaller
-    }
+
     .bg-menu {
       display: inline;
     }
@@ -800,23 +992,23 @@ A:visited {
 
   @media (min-width: 1440px) {
     .box-img-banner {
-        width: 100%;
-        height: 178px;
+        width: 60px;
+        height: 60px;
     }
     .logo-profile {
-        height: 250px;
-        width: 250px;
+        /* height: 250px;
+        width: 250px; */
         background-color: #bbb;
         border-radius: 50%;
     }
     .profile-phone{
-        font-size: large;
+        /* font-size: large; */
     }
     .profile-email{
-        font-size: large;
+        /* font-size: large; */
     }
     .fa-square-phone {
-        font-size: 35px;
+        font-size: 20px;
     }
     .fa-envelope{
         font-size: 20px;
@@ -824,7 +1016,6 @@ A:visited {
     .profile-name {
         margin-top: 10px;
         text-align: center;
-        font-size: x-large;
     }
     .text-review-right{
         text-align: right;
@@ -837,13 +1028,7 @@ A:visited {
     .welcome-text{
         font-size: large
     }
-    .nav-link{
-        font-size: large
-    }
-    .fa-eye{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+
     .bg-sup {
        height: 83px;
     }
@@ -873,5 +1058,8 @@ A:visited {
     }
   }
 
+  .darkMome{
+    background-color:#000;
+}
 
 

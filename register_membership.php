@@ -1,34 +1,4 @@
-<?php include('comtop.php') ?>
-<?php include('header.php') ?>
-<div class="box-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12 text-center p-3">
-                <h1 class="text-white text-sso">ระบบ Portal (Single Sing - on SSO)</h1>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="d-flex padding-nag">
-            <div class="box_icon_book">
-                <i class="fa-solid fa-house-chimney"></i>
-            </div>
-            <div class="box_nag_menu">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu">หน้าหลัก</a></li>
-                        <li class="breadcrumb-item"><a href="#" class="navbar-menu">สมัครสมาชิก</a></li>
-                        <li class="breadcrumb-item active navbar-menu" aria-current="page">สมัครสมาชิกภายใน</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-       <hr class="line-color">
-    </div>
+<div class="container main-content mt-3">
     <form action="">
         <div class="shadow-sm p-3 mb-5 bg-body rounded">
             <div class="row">
@@ -306,7 +276,7 @@
         </div>
     </form>
      <div class="row">
-        <div class="col-xl-12 text-center">
+        <div class="col-xl-12 text-center  mb-2">
             <button class="but-form-register" data-toggle="modal"  data-dismiss="modal" data-target="#save_register">สมัครสมาชิก</button>
         </div>
     </div>
@@ -464,34 +434,28 @@
 
 
 <!-- Modal แจ้งเตือน -->
-<div class="modal fade" id="message_alert" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-body">
-          <div class="row">
-               <div class="col-xl-12 text-center">
-                    <i class="fa-solid fa-check"></i>
-               </div>
-          </div>
-          <div class="row">
-               <div class="col-xl-12 text-center">
-                     <p>ลงทะเบียนเสร็จสิ้น</p>
-                     <small class="text-danger">
-                        กรุณารอทาง Admin ฝ่ายเทคโนโลยีสารสนเทศ อนุมัติการเป็นสมาชิกจึงจะสามารถ Login เข้าใช้งานระบบ Portal (SSO) ได้
-                     </small>
-               </div>
-          </div>
-      </div>
+    <div class="modal fade" id="message_alert" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                            <i class="fa-solid fa-check"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                            <p>ลงทะเบียนเสร็จสิ้น</p>
+                            <small class="text-danger">
+                                กรุณารอทาง Admin ฝ่ายเทคโนโลยีสารสนเทศ อนุมัติการเป็นสมาชิกจึงจะสามารถ Login เข้าใช้งานระบบ Portal (SSO) ได้
+                            </small>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
-
-       
-       
-
-</div>
-<?php include('footer.php') ?> 
-<?php include ('combottom.php') ?>
 
 

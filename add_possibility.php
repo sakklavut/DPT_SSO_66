@@ -1,24 +1,13 @@
 <?php include('comtop.php') ?>
-<?php include('header.php') ?>
-<div class="box-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12 text-center p-3">
-                <h1 class="text-white text-sso">ระบบ Portal (Single Sing - on SSO)</h1>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
+<?php include('header_2.php') ?>
+
+<div class="container  mt-3">
     <div class="row">
-        <div class="d-flex padding-nag">
-            <div class="box_icon_book">
-                <i class="fa-solid fa-house-chimney"></i>
-            </div>
+        <div class="d-flex">
             <div class="box_nag_menu">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu">หน้าหลัก</a></li>
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu"><i class="fa-solid fa-house-chimney"></i>หน้าหลัก</a></li>
                         <li class="breadcrumb-item"><a href="possibility.php" class="navbar-menu">คำขอสิทธิ์เข้าใช้ระบบ</a></li>
                         <li class="breadcrumb-item active navbar-menu" aria-current="page">เพิ่มข้อมูลคำขอสิทธิ์เข้าใช้งาน</li>
                     </ol>
@@ -226,7 +215,7 @@
    </form>
     <div class="row">
         <div class="col-xl-12 text-center">
-            <button class="but-form-register" data-toggle="modal" data-target="#edit_but">บันทึก</button>
+            <button class="but-form-register mb-2" data-toggle="modal" data-target="#edit_but">บันทึก</button>
         </div>
     </div>
 </div>
@@ -241,14 +230,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">ยืนยันบันทึกเพิ่มคำขอสิทธิ์เข้าใช้งาน</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
       <div class="modal-body text-center">
          <small class="text-danger">* ยืนยันการเพิ่มคำขอสิทธิ์เข้าใช้งานระบบ</small>  
       </div>
       <div class="row">
             <div class="col-xl-12 text-center p-3">
-                <button type="button" id="edit_possibility" data-bs-toggle="modal" data-bs-target="#edit_delete" data-bs-dismiss="modal" class="but-form-register">บันทึก</button>
+                <button type="button" id="edit_possibility" data-toggle="modal" data-target="#edit_delete" data-dismiss="modal" class="but-form-register">บันทึก</button>
             </div>
         </div>
     </div>

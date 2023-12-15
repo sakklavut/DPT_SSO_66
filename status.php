@@ -1,25 +1,13 @@
 <?php include('comtop.php') ?>
-<?php include('header.php') ?>
-<div class="box-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12 text-center p-3">
-                <h1 class="text-white text-sso">ระบบ Portal (Single Sing - on SSO)</h1>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
+<?php include('header_2.php') ?>
+
+<div class="container main-content  mt-3">
     <div class="row">
-        <div class="d-flex padding-nag">
-            <div class="box_icon_book">
-                <i class="fa-solid fa-house-chimney"></i>
-            </div>
+        <div class="d-flex">
             <div class="box_nag_menu">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu">หน้าหลัก</a></li>
-                        <li class="breadcrumb-item"><a href="status.php" class="navbar-menu">ติดตามสถานนะ</a></li>
+                    <ol class="breadcrumb m-0">
+                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu"><i class="fa-solid fa-house-chimney"></i>หน้าหลัก</a></li>
                         <li class="breadcrumb-item active navbar-menu" aria-current="page">ติดตามสถานนะ</li>
                     </ol>
                 </nav>
@@ -49,16 +37,16 @@
                     <table class="table">
                         <thead class="bg-table">
                             <tr>
-                                <th scope="col">ลำดับ</th>
-                                <th scope="col">รายการระบบที่ร้องขอ</th>
-                                <th scope="col">วันที่</th>   
-                                <th scope="col">สถานะ</th>        
-                                <th scope="col">รายละเอียด</th>                  
+                                <td scope="col">ลำดับ</td>
+                                <td scope="col">รายการระบบที่ร้องขอ</td>
+                                <td scope="col">วันที่</td>   
+                                <td scope="col">สถานะ</td>        
+                                <td scope="col">รายละเอียด</td>                  
                             </tr>
                         </thead>
                         <tbody>
                             <tr class="line-table">
-                                <th scope="row">1</th>
+                                <td scope="row" class="text-center">1</td>
                                 <td>ระบบงานแผน</td>
                                 <td>20/10/2566</td>
                                 <td><span class="text-status-oragne">กำลังดำเนินการ</span></td>
@@ -66,14 +54,14 @@
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <button type="button" class="btn btn-success btn-table-details text-table-view" data-toggle="modal" data-target="#table_status">
-                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                                <i class="fa-solid fa-magnifying-glass"></i> ดูรายละเอีนด
                                             </button>
                                         </div>
                                     </div>
                                 </td>
                             </tr>
                             <tr class="line-table">
-                                <th scope="row">2</th>
+                                <td scope="row" class="text-center">2</td>
                                 <td>ระบบบริการตรวจสอบข้อมูลการขออนุญาตปลูกสร้างอาคารหรือสิ่งปลูกสร้าง</td>
                                 <td>19/10/2566</td>
                                 <td><span class="text-status-green">ดำเนินการเสร็จสิ้น</span></td>
@@ -81,14 +69,14 @@
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <button type="button" class="btn btn-success btn-table-details text-table-view" data-toggle="modal" data-target="#table_status">
-                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                                <i class="fa-solid fa-magnifying-glass"></i> ดูรายละเอีนด
                                             </button>
                                         </div>
                                     </div>
                                 </td>
                             </tr>
                             <tr class="line-table">
-                                <th scope="row">3</th>
+                                <td scope="row" class="text-center">3</td>
                                 <td>ระบบเรียกช่าง ส่วนผู้ดูแลระบบจำแนกตามหน่วยงาน</td>
                                 <td>08/10/2566</td>
                                 <td><span class="text-status-red">ยกเลิกเสร็จสิ้น</span></td>
@@ -96,7 +84,7 @@
                                     <div class="d-flex justify-content-between">
                                         <div>
                                             <button type="button" class="btn btn-success btn-table-details text-table-view" data-toggle="modal" data-target="#table_status">
-                                                <i class="fa-solid fa-magnifying-glass mx-2"></i> ดูรายละเอีนด
+                                                <i class="fa-solid fa-magnifying-glass"></i> ดูรายละเอีนด
                                             </button>
                                         </div>
                                     </div>
@@ -149,11 +137,11 @@
                     <table class="table">
                         <thead class="bg-table">
                             <tr>
-                                <th scope="col">วันที่ส่งคำขอ</th>
-                                <th scope="col">สถานะ</th>
-                                <th scope="col">วันที่ได้สถานนะล่าสุด</th>   
-                                <th scope="col">วันที่หมดอายุการใช้งาน</th>        
-                                <th scope="col">ยกเลิกเสร็จสิ้น</th>                  
+                                <td scope="col">วันที่ส่งคำขอ</td>
+                                <td scope="col">สถานะ</td>
+                                <td scope="col">วันที่ได้สถานนะล่าสุด</td>   
+                                <td scope="col">วันที่หมดอายุการใช้งาน</td>        
+                                <td scope="col">ยกเลิกเสร็จสิ้น</td>                  
                             </tr>
                         </thead>
                         <tbody>
