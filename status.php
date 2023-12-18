@@ -20,12 +20,12 @@
     <div class="row">
        <div class="col-xl-12">
         <div class="d-flex justify-content-end">
-                <div class="m-2">
+                <div class="mb-1">
                     <select class="form-select" aria-label="Default select example">
                         <option selected>จำนวนรายการ  10</option>
-                        <option value="1">10</option>
-                        <option value="2">20</option>
-                        <option value="3">30</option>
+                        <option value="1">จำนวนรายการ 10</option>
+                        <option value="2">จำนวนรายการ 20</option>
+                        <option value="3">จำนวนรายการ 30</option>
                     </select>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                         <thead class="bg-table">
                             <tr>
                                 <td scope="col">ลำดับ</td>
-                                <td scope="col">รายการระบบที่ร้องขอ</td>
+                                <td scope="col" style="width:30%;">รายการระบบที่ร้องขอ</td>
                                 <td scope="col">วันที่</td>   
                                 <td scope="col">สถานะ</td>        
                                 <td scope="col">รายละเอียด</td>                  

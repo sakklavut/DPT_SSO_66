@@ -25,9 +25,9 @@
                 <div class="">
                     <select class="form-select" aria-label="Default select example">
                         <option selected>จำนวนรายการ  10</option>
-                        <option value="1">10</option>
-                        <option value="2">20</option>
-                        <option value="3">30</option>
+                        <option value="1">จำนวนรายการ 10</option>
+                        <option value="2">จำนวนรายการ 20</option>
+                        <option value="3">จำนวนรายการ 30</option>
                     </select>
                 </div>
             </div>

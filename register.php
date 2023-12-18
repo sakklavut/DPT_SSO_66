@@ -16,32 +16,7 @@
     <div class="row">
        <hr class="line-color">
     </div>
-        <div class="nav nav-tabs row justify-content-center" >
-            <div class="m-1 shadow-sm p-3 box mb-2  rounded box_register col-xl-4 col-lg-4" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
-                <div class="row">
-                    <div class="col-xl-12 text-center">
-                        <img src="assets/images/register_1.png" class="img_box" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12 text-center text-white">
-                        <h4> บุคคลากร </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="m-1 shadow-sm p-3 box mb-2  rounded box_register col-xl-4 col-lg-4" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">
-                <div class="row">
-                    <div class="col-xl-12 text-center">
-                        <img src="assets/images/register_2.png" class="img_box" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12 text-center text-white">
-                        <h4> นิติบุคคล </h4>
-                    </div>
-                </div>
-            </div>
-         </div>
+       
     <div class="row">
         <div class="col-xl-12">
             <div class="tab-content" id="nav-tabContent">

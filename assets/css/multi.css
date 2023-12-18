@@ -244,3 +244,61 @@ select.list-dt:focus {
     width: 100%;
     object-fit: cover;
 }
+
+.form-card {
+    width: 200px;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+.text-multi{
+    list-style-type:none;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+.t-multi3 {
+    padding: 0px 0px 0px 0px;
+}
+
+.form-card {
+    width: 200px;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.text-multi{
+    list-style-type:none;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+.t-multi3 {
+    padding: 0px 0px 0px 0px;
+}
+
+.form-card {
+    width: 200px;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.text-multi{
+    list-style-type:none;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+.t-multi3 {
+    padding: 0px 0px 0px 0px;
+}
+
+
+.text-multi{
+    list-style-type:none;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+.t-multi3 {
+    padding: 0px 0px 0px 0px;
+}

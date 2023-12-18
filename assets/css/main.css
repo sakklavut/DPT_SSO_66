@@ -332,7 +332,14 @@ A:visited {
     font-weight: 300;
 }
 
-
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0.25rem;
+    font-size: small;
+}
 
 
 
@@ -346,7 +353,12 @@ A:visited {
 }
 
 
-
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: small;
+    line-height: inherit;
+}
 
 
 .bg-box1-icon{
@@ -524,6 +536,7 @@ A:visited {
 .form-select{
     border: 1px solid #99405E !important;
     height: 100%;
+    padding: 9px;
 }
 
 .icon-red{
@@ -871,6 +884,11 @@ A:visited {
     overflow: auto;
   } */
 
+.text-confirm{
+    padding: 0px;
+}
+
+  
 
 @media (min-width: 768px) {
     .box-contact{
