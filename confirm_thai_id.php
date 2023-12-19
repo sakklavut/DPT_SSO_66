@@ -18,7 +18,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-xl-12 text-center mt-2 mb-2">
-                                    <button class="but-form-register" >ยืนยันตัวตน</button>
+                                    <button class="but-form-register" >ยืนยันตัวตน ด้วย thai_id</button>
                                 </div>
                             </div>
                             <!-- <div class="row">
