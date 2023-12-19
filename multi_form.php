@@ -1,14 +1,15 @@
 <?php include('comtop.php') ?>
-<?php include('header_2.php') ?>
-<!-- MultiStep Form -->
-<!-- <div id="grad1" class="main-content">
 
-</div> -->
 <div class="container-fluid main-content" >
+    <div class="row">
+        <div class="col-xl-12 text-center">
+            <img src="assets/images/Logo_main_1.png" class="logo_main_form" alt="">
+        </div>
+    </div>
     <div class="row justify-content-center mt-0">
         <div class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 mb-2">
-            <div class="card card-bg-form px-0 pt-4 pb-0 mt-3 mb-3">
-                <h2><strong class="text-white">ลงทะเบียนเพื่อใช้งานระบบของกรมโยธาธิการและผังเมือง</strong></h2>
+            <div class="card card-bg-form px-0 pt-4 pb-0 mt-3 mb-3 shadow">
+                <h2><strong class="text-form-register">ลงทะเบียนเพื่อใช้งานระบบของกรมโยธาธิการและผังเมือง</strong></h2>
                 <div class="row">
                     <div class="col-md-12 mx-0">
                         <form id="msform">
@@ -76,7 +77,7 @@
                                             <div class="col-xl-12 text-center">
                                                    <div class="form-check">
                                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                     <label class="form-check-label mt-1 ml-2" for="exampleCheck1">Check me out</label>
+                                                     <label class="form-check-label mt-1 ml-2" for="exampleCheck1">ยอมรับข้อตกลง</label>
                                                 </div>
                                             </div>
                                          </div>
@@ -89,9 +90,9 @@
                                         <div class="col-xl-6">
                                             <div class="row">
                                                 <div class="col-xl-12 text-center">
-                                                    
                                                     <a href="confirm_thai_id.php">
                                                         <div class="m-1 shadow-sm p-3 box mb-2  rounded box_register w-100 text-white">
+                                                            <img src="assets/images/peoplelogo_0.png"  class="i-con-register" alt="">
                                                             บุคคลากร
                                                         </div>
                                                     </a>
@@ -103,6 +104,7 @@
                                                 <div class="col-xl-12 text-center">
                                                     <a href="register.php">
                                                         <div class="m-1 shadow-sm p-3 box mb-2  rounded box_register w-100 text-white">
+                                                            <img src="assets/images/homelogo_0.png"  class="i-con-register" alt="">
                                                             นิติบุคคล
                                                         </div>
                                                     </a>
@@ -124,7 +126,6 @@
 
 
 
-<?php include('footer.php') ?> 
 <?php include ('combottom.php') ?>
 
 

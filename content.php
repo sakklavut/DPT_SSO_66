@@ -4,7 +4,7 @@
         <div class="row justify-content-center">
             <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item m-2" role="presentation">
-                    <div   div class="nav-link box-banner-center p-1 active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                    <div class="nav-link box-banner-center p-1 active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                         <div class="card">
                             <div class="row">
                                 <div class="col-xl-12">

@@ -131,7 +131,7 @@ select.list-dt:focus {
 
 
 .card-bg-form {
-    background-color: #cccccc;
+    background-color: #fdfdfd;
 }
 
 /*FieldSet headings*/
@@ -300,4 +300,17 @@ select.list-dt:focus {
 }
 .t-multi3 {
     padding: 0px 0px 0px 0px;
+}
+
+.logo_main_form{
+    width: 20%;
+    height: auto;
+    padding:20px;
+}
+
+.text-form-register{
+    color: #000000;
+}
+.i-con-register{
+    width: 30px;
 }
