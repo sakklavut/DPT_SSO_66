@@ -19,7 +19,8 @@
                             <div class="row">
                                 <div class="col-xl-12 text-center mt-2 mb-2">
                                         <button class="but-form-register" >
-                                            <a href="view_qrcode_thai_id.php" class="text-thaid">ยืนยันตัวตน ด้วย แอปพลิเคชัน ThaID </a>
+                                            <img src="assets/images/thai_id.png" alt="">
+                                            <a href="view_qrcode_thai_id.php" class="text-thaid"> แอปพลิเคชัน ThaID </a>
                                         </button>
                                 </div>
                             </div>

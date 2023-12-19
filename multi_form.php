@@ -85,7 +85,7 @@
                                 <input type="button" name="next" class="next action-button" value="ขั้นตอนต่อไป"/>
                             </fieldset>
                             <fieldset>
-                                <div class="form-card">
+                                <div class="form-card-1 shadow-sm">
                                     <div class="row">
                                         <div class="col-xl-6">
                                             <div class="row">
@@ -114,7 +114,6 @@
                                     </div>
                                 </div>
                             </fieldset>
-                        
                         </form>
                     </div>
                 </div>
