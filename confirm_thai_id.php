@@ -18,39 +18,14 @@
                             </div>
                             <div class="row">
                                 <div class="col-xl-12 text-center mt-2 mb-2">
-                                    <button class="but-form-register" >ยืนยันตัวตน ด้วย thai_id</button>
+                                        <button class="but-form-register" >
+                                            <a href="view_qrcode_thai_id.php" class="text-thaid">ยืนยันตัวตน ด้วย แอปพลิเคชัน ThaID </a>
+                                        </button>
                                 </div>
                             </div>
-                            <!-- <div class="row">
-                                <div class="col-xl-12 p-0">
-                                    <h4 class="text-confirm">รูปแบบการพิสูจน์ตัวตน</h4>
-                                </div>
-                            </div> -->
-                            <!-- <div class="row">
-                                <div class="d-flex justify-content-center">
-                                    <button class="but-form-register">
-                                        <div class="mr-2">
-                                            <img src="assets/images/thai_id.png" class="img-fluid" alt="">
-                                        </div>
-                                        <div class="mt-2">
-                                            <p class="m-0">แอปพลิเคชัน ThaID</p>
-                                        </div>
-                                    </button>
-                                </div>
-                            </div> -->
                         </form>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <button class="but-form-register" data-toggle="modal" data-target="#thai_id">
-                        <div>
-                            <img src="assets/images/thai_id.png" class="img-fluid" alt="">
-                        </div>
-                        <div>
-                            <p class="m-0">แอปพลิเคชัน ThaID</p>
-                        </div>
-                    </button>
-                </div>
             </div>
         </div>
     </div>
@@ -58,25 +33,7 @@
 
 
 
-<!-- Modal thai_id -->
-<div class="modal fade" id="thai_id" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-            <div class="col-xl-12">
-                <img src="assets/images/QR.png" class="img-fluid" alt="">
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 

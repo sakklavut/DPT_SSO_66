@@ -27,8 +27,8 @@
                                             <h4>ข้อตกลงในการใช้บริการอิเล็กทรอนิกส์ของกรมโยธาธิการและผังเมือง</h4>
                                         </div>
                                     </div>
-                                    <div class=row> 
-                                            <div class=col-xl-12 text-center> 
+                                        <div class=row> 
+                                            <div class=col-xl-12 > 
                                                 <p> กรมโยธาธิการและผังเมือง ตระหนักและให้ความสำคัญในการคุ้มครองข้อมูลส่วนบุคคลของผู้มาติดต่อและ ใช้บริการของ กรมโยธาธิการและผังเมือง จึงเป็นการสมควรกำหนดนโยบายการคุ้มครองข้อมูลส่วนบุคคล เพื่อแจ้งให้ทราบถึงการเก็บรวบรวม ใช้ และเปิดเผยข้อมูลส่วนบุคคล ตามพระราชบัญญัติคุ้มครองข้อมูลส่วนบุคคล พ.ศ. 2562
                                                 <p>ข้อ 1 หลักการสำคัญในการคุ้มครองข้อมูลส่วนบุคคลกรมโยธาธิการและผังเมือง จะเก็บรวบรวม ใช้ และเปิดเผยข้อมูลส่วนบุคคล โดยอยู่บนพื้นฐานหลักการสำคัญในการคุ้มครองข้อมูลส่วนบุคคล ดังนี้</p>
                                                 <ul class="text-multi"> 
@@ -72,6 +72,14 @@
                                                 </ul>
                                             </div>
                                          </div>
+                                         <div class="row">
+                                            <div class="col-xl-12 text-center">
+                                                   <div class="form-check">
+                                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                     <label class="form-check-label mt-1 ml-2" for="exampleCheck1">Check me out</label>
+                                                </div>
+                                            </div>
+                                         </div>
                                 </div>
                                 <input type="button" name="next" class="next action-button" value="ขั้นตอนต่อไป"/>
                             </fieldset>
@@ -81,7 +89,8 @@
                                         <div class="col-xl-6">
                                             <div class="row">
                                                 <div class="col-xl-12 text-center">
-                                                    <a href="confirm_thai_id.php" target="_blank">
+                                                    
+                                                    <a href="confirm_thai_id.php">
                                                         <div class="m-1 shadow-sm p-3 box mb-2  rounded box_register w-100 text-white">
                                                             บุคคลากร
                                                         </div>
@@ -92,7 +101,7 @@
                                         <div class="col-xl-6">
                                             <div class="row">
                                                 <div class="col-xl-12 text-center">
-                                                    <a href="register.php" target="_blank">
+                                                    <a href="register.php">
                                                         <div class="m-1 shadow-sm p-3 box mb-2  rounded box_register w-100 text-white">
                                                             นิติบุคคล
                                                         </div>
@@ -102,75 +111,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <input type="button" name="previous" class="previous action-button-previous" value="ย้อนกลับ"/>
-                                <input type="button" name="next" class="next action-button" value="ขั้นตอนต่อไป"/> -->
                             </fieldset>
-                            <!-- <fieldset>
-                                <div class="form-card">
-                                    <h2 class="fs-title">Payment Information</h2>
-                                    <div class="radio-group">
-                                        <div class='radio' data-value="credit"><img src="https://i.imgur.com/XzOzVHZ.jpg" width="200px" height="100px"></div>
-                                        <div class='radio' data-value="paypal"><img src="https://i.imgur.com/jXjwZlj.jpg" width="200px" height="100px"></div>
-                                        <br>
-                                    </div>
-                                    <label class="pay">Card Holder Name*</label>
-                                    <input type="text" name="holdername" placeholder=""/>
-                                    <div class="row">
-                                        <div class="col-9">
-                                            <label class="pay">Card Number*</label>
-                                            <input type="text" name="cardno" placeholder=""/>
-                                        </div>
-                                        <div class="col-3">
-                                            <label class="pay">CVC*</label>
-                                            <input type="password" name="cvcpwd" placeholder="***"/>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-3">
-                                            <label class="pay">Expiry Date*</label>
-                                        </div>
-                                        <div class="col-9">
-                                            <select class="list-dt" id="month" name="expmonth">
-                                                <option selected>Month</option>
-                                                <option>January</option>
-                                                <option>February</option>
-                                                <option>March</option>
-                                                <option>April</option>
-                                                <option>May</option>
-                                                <option>June</option>
-                                                <option>July</option>
-                                                <option>August</option>
-                                                <option>September</option>
-                                                <option>October</option>
-                                                <option>November</option>
-                                                <option>December</option>
-                                            </select>
-                                            <select class="list-dt" id="year" name="expyear">
-                                                <option selected>Year</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                                <input type="button" name="make_payment" class="next action-button" value="Confirm"/>
-                            </fieldset> -->
-                            <!-- <fieldset>
-                                <div class="form-card">
-                                    <h2 class="fs-title text-center">Success !</h2>
-                                    <br><br>
-                                    <div class="row justify-content-center">
-                                        <div class="col-3">
-                                            <img src="https://img.icons8.com/color/96/000000/ok--v2.png" class="fit-image">
-                                        </div>
-                                    </div>
-                                    <br><br>
-                                    <div class="row justify-content-center">
-                                        <div class="col-7 text-center">
-                                            <h5>You Have Successfully Signed Up</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset> -->
+                        
                         </form>
                     </div>
                 </div>

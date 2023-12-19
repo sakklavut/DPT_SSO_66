@@ -19,7 +19,7 @@
        
     <div class="row">
         <div class="col-xl-12">
-                <?php include('register_membership.php') ?> 
+            <?php include('register_membership.php') ?> 
         </div>
     </div>
 </div>
