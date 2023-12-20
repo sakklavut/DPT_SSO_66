@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12 text-center">
-                <img src="assets/images/Logo_main_1.png" class="logo_main_form_1" alt="">
+                <img src="assets/images/Logo_main_2.png" class="logo_main_form_1" alt="">
             </div>
         </div>
         <div class="row">

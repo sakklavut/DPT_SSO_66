@@ -1,7 +1,18 @@
 <?php include('comtop.php') ?>
-<?php include('header_2.php') ?>
-<div class="container main-content mt-3">
-    <div class="row">
+
+
+
+<div class="" id="grad1">
+    <div class="container main-content mt-3" >
+        <div class="row">
+            <div class="col-xl-12">
+                <?php include('register_membership.php') ?> 
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- <div class="row">
         <div class="d-flex">
             <div class="box_nag_menu">
                 <nav aria-label="breadcrumb">
@@ -15,27 +26,10 @@
     </div>
     <div class="row">
        <hr class="line-color">
-    </div>
+    </div> -->
        
-    <div class="row">
-        <div class="col-xl-12">
-            <?php include('register_membership.php') ?> 
-        </div>
-    </div>
-</div>
 
 
-
-
-
-
-
-
-
-
-
-
-<?php include('footer.php') ?> 
 <?php include ('combottom.php') ?>
 
 

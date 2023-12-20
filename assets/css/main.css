@@ -284,6 +284,9 @@ A:visited {
     transform: scale(0.9);
 }
 
+.bg-body{
+    background-color: #ffffff;
+}
 
 .bg-box-icon-3 {
     transition: all ease-in-out 0.9s;

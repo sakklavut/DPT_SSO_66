@@ -3,7 +3,7 @@
 <div class="container-fluid main-content" id="grad1">   
     <div class="row">
         <div class="col-xl-12 text-center">
-            <img src="assets/images/Logo_main_1.png" class="logo_main_form" alt="">
+            <img src="assets/images/Logo_main_2.png" class="logo_main_form" alt="">
         </div>
     </div>
     <div class="row justify-content-center mt-0" >
