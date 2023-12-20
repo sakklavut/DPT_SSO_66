@@ -1,14 +1,13 @@
 <?php include('comtop.php') ?>
-<?php include('header_2.php') ?>
 
 
 
-<div class="container main-content mt-3">
-    <div class="row">
-        <div class="col-xl-12">
+
+<div class="container main-content" id="confirm_thai_id">
+    <div class="row " id="box">
+        <div class="col-xl-12 align-self-center">
             <div class="shadow-sm p-3 mb-5 bg-white rounded">
                 <div class="d-flex justify-content-center">
-                    <div class="row">
                         <form>
                             <div class="row">
                                 <label for="" class="col-xl-12 p-0">
@@ -25,8 +24,7 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
-                </div>
+                </div>  
             </div>
         </div>
     </div>
@@ -38,7 +36,8 @@
 
 
 
-<?php include('footer.php') ?> 
+
+ 
 <?php include ('combottom.php') ?>
 
 

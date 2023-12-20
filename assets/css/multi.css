@@ -22,8 +22,6 @@
     box-sizing: border-box;
     width: 94%;
     margin: 0 3% 20px 3%;
-
-    /*stacking fieldsets above each other*/
     position: relative;
 }
 
@@ -149,7 +147,7 @@ select.list-dt:focus {
 
 
 .card-bg-form {
-    background-color: #fdfdfd;
+    background-color: #ffffff;
 }
 
 /*FieldSet headings*/
@@ -306,7 +304,7 @@ select.list-dt:focus {
 
 .form-card-1 {
     width: 200px;
-    height: 450px;
+    height: auto;
 }
 
 .text-multi{
@@ -340,3 +338,24 @@ select.list-dt:focus {
 .i-con-register{
     width: 30px;
 }
+
+#confirm_thai_id {
+    width: 900px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  #confirm_thai_id div {
+    flex: 1;
+  }
+  
+  #box {
+    align-self: center;
+  }
+  
+  .bg-qr-code{
+    background-color: #3f70c5;
+    width: 100%;
+    height: 100%;
+  }

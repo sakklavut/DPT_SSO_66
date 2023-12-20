@@ -8,15 +8,15 @@
     </div>
     <div class="row justify-content-center mt-0">
         <div class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 mb-2">
-            <div class="card card-bg-form px-0 pt-4 pb-0 mt-3 mb-3 shadow">
+            <div class="card card-bg-form">
                 <h2><strong class="text-form-register">ลงทะเบียนเพื่อใช้งานระบบของกรมโยธาธิการและผังเมือง</strong></h2>
                 <div class="row">
                     <div class="col-md-12 mx-0">
                         <form id="msform">
                             <!-- progressbar -->
                             <ul id="progressbar" class="d-flex justify-content-center">
-                                <li class="active" id="account"><strong>ประกาศ</strong></li>
-                                <li id="personal"><strong>บุคคล</strong></li>
+                                <!-- <li class="active" id="account"><strong>ประกาศ</strong></li>
+                                <li id="personal"><strong>บุคคล</strong></li> -->
                                 <!-- <li id="payment"><strong>Payment</strong></li>
                                 <li id="confirm"><strong>Finish</strong></li> -->
                             </ul>

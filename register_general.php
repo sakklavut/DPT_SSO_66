@@ -7,7 +7,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="index.php" class="navbar-menu"><i class="fa-solid fa-house-chimney"></i>หน้าหลัก</a></li>
-                        <li class="breadcrumb-item"><a href="multi_form.php" class="navbar-menu">สมัครสมาชิกนิติบุคคล</a></li>
+                        <li class="breadcrumb-item"><a href="multi_form.php" class="navbar-menu">สมัครสมาชิกบุคลากร</a></li>
                     </ol>
                 </nav>
             </div>
