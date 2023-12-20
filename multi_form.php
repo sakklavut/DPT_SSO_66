@@ -1,12 +1,12 @@
 <?php include('comtop.php') ?>
-
-<div class="container-fluid main-content" >
+    <div class="bg-top-regiser"></div>
+<div class="container-fluid main-content" id="grad1">   
     <div class="row">
         <div class="col-xl-12 text-center">
             <img src="assets/images/Logo_main_1.png" class="logo_main_form" alt="">
         </div>
     </div>
-    <div class="row justify-content-center mt-0">
+    <div class="row justify-content-center mt-0" >
         <div class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 mb-2">
             <div class="card card-bg-form">
                 <h2><strong class="text-form-register">ลงทะเบียนเพื่อใช้งานระบบของกรมโยธาธิการและผังเมือง</strong></h2>
@@ -85,15 +85,22 @@
                                 <input type="button" name="next" class="next action-button" value="ขั้นตอนต่อไป"/>
                             </fieldset>
                             <fieldset>
-                                <div class="form-card-1 shadow-sm">
-                                    <div class="row">
+                                <div class="row">
                                         <div class="col-xl-6">
                                             <div class="row">
                                                 <div class="col-xl-12 text-center">
                                                     <a href="confirm_thai_id.php">
                                                         <div class="m-1 shadow-sm p-3 box mb-2  rounded box_register w-100 text-white">
-                                                            <img src="assets/images/peoplelogo_0.png"  class="i-con-register" alt="">
-                                                            บุคคลากร
+                                                            <div class="row">
+                                                                <div class="col-xl-12">
+                                                                    <img src="assets/images/peoplelogo_0.png"  class="i-con-register" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-xl-12">
+                                                                    <h4>บุคคลากร</h4>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </a>
                                                 </div>
@@ -104,15 +111,22 @@
                                                 <div class="col-xl-12 text-center">
                                                     <a href="register.php">
                                                         <div class="m-1 shadow-sm p-3 box mb-2  rounded box_register w-100 text-white">
-                                                            <img src="assets/images/homelogo_0.png"  class="i-con-register" alt="">
-                                                            นิติบุคคล
+                                                            <div class="row">
+                                                                <div class="col-xl-12">
+                                                                    <img src="assets/images/homelogo_0.png"  class="i-con-register" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-xl-12">
+                                                                    <h4> นิติบุคคล</h4>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                             </fieldset>
                         </form>
                     </div>

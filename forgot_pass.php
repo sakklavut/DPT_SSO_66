@@ -1,9 +1,12 @@
 <?php include('comtop.php') ?>
-<?php include('header_2.php') ?>
 
-<div class="container main-content mt-3">
-    <div class="row">
-        <div class="col-xl-12">
+
+<div class="bg-top-regiser">
+
+</div>
+<div class="container main-content mt-3" id="confirm_thai_id">
+    <div class="row" id="box">
+        <div class="col-xl-12 align-self-center">
             <div class="shadow-sm p-3 mb-5 bg-white rounded">
                 <div class="d-flex justify-content-center">
                     <div class="row">
@@ -30,23 +33,6 @@
 </div>
 
 
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-<?php include('footer.php') ?> 
 <?php include ('combottom.php') ?>
 
 

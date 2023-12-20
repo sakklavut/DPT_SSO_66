@@ -541,6 +541,7 @@ button, input, optgroup, select, textarea {
     border: 1px solid #99405E !important;
     height: 100%;
     padding: 9px;
+    border-radius: 0.25rem;
 }
 
 .icon-red{
