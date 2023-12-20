@@ -229,7 +229,11 @@ A:visited {
     background-color: #F7941D;
  
 }
-
+.bg-top-regiser{
+    background-color: #7b2b2a;
+    width: 100%;
+    height: 30px;
+  }
 .text-banner-1{
     color: #003466;
     text-align: center;

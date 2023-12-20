@@ -1,7 +1,5 @@
 <?php include('comtop.php') ?>
-
-
-
+<div class="bg-top-regiser"></div>
 <div class="" id="grad1">
     <div class="container main-content mt-3" >
         <div class="row">
@@ -11,25 +9,6 @@
         </div>
     </div>
 </div>
-
-  <!-- <div class="row">
-        <div class="d-flex">
-            <div class="box_nag_menu">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb m-0">
-                        <li class="breadcrumb-item"><a href="index.php" class="navbar-menu"><i class="fa-solid fa-house-chimney"></i>หน้าหลัก</a></li>
-                        <li class="breadcrumb-item"><a href="multi_form.php" class="navbar-menu">สมัครสมาชิกบุคลากร</a></li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-       <hr class="line-color">
-    </div> -->
-       
-
-
 <?php include ('combottom.php') ?>
 
 
