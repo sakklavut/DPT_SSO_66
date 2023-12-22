@@ -24,16 +24,22 @@
                     <h4> รีเซ็ตรหัสผ่าน</h4>
                 </div>
                 <div>
-                    <p class="m-0">ส่ง OTP ไปที่ xxxxx@gmail.com</p>  <p class="m-0">Ref. : MPB967</p>
+                    <p class="m-0">ระบุรหัสผ่านใหม่</p>  
                 </div>
                 <div class="d-flex justify-content-center">
                     <form action="" class="text-center">
-                        <input type="mail" class="form-control col-xl-12" id="exampleFormControlInput1" placeholder="xxxxx@gmail.com">
-                        <button class="but-form-register mt-2">ยืนยันรหัส OTP</button>
+                        
+                        <input type="password" class="form-control col-xl-12 mb-2" id="#" placeholder="ระบุรหัสผ่าน">
+                        <input type="password" class="form-control col-xl-12 mb-2" id="#" placeholder="ระบุรหัสผ่านใหม่">
+                        
+                        <button class="but-form-register mt-2" type="submit">ยืนยัน</button>
                     </form>
+                    
                 </div>
             </div>
         </div>
+
+        
     </div>
 </div>
 

@@ -54,6 +54,19 @@ A:visited {
     color: #fff;
     background-color: #7B2B2A;
 }
+
+.btn-reset-pass{
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+.btn-reset-pass:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+
 .bg-header{
     /* background-image: url(../images/bg-header.png); */
     background-image: url(../images/bg-header_v2.png);
