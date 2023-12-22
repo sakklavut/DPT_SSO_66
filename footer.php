@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12 text-center">
-                <p class="text-white mt-3"> © สงวนลิขสิทธิ์ กรมโยธาธิการและผังเมือง กระทรวงมหาดไทย</p>
+                <p class="text-footer mt-3"> © สงวนลิขสิทธิ์ กรมโยธาธิการและผังเมือง กระทรวงมหาดไทย</p>
             </div>
         </div>
     </div>

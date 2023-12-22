@@ -8,30 +8,42 @@
     <div class="row" id="box">
         <div class="col-xl-12 align-self-center">
             <div class="shadow-sm p-3 mb-5 bg-white rounded">
-                <div class="d-flex justify-content-center">
-                    <div class="row">
-                        <form>
-                            <div class="row">
-                                <label for="" class="col-xl-12 p-0">
-                                    <h4 class="text-confirm">ลืมรหัสผ่าน</h4>
-                                </label>
-                                <input maxlength="13" type="text" class="col-xl-12 form-control" placeholder="ระบุเลขประจำตัวประชาชน">
-                            </div>
-                            <div class="row">
-                                <div class="col-xl-12 text-center mt-2 mb-2">
-                                        <button class="but-form-register">
-                                            <a href="view_qrcode_thai_id.php" class="text-thaid">ยืนยันตัวตน ด้วย แอปพลิเคชัน ThaID </a>
-                                        </button>
-                                </div>
-                            </div>
-                        </form>
+                <div>
+                    <h4 class="text-confirm">ลืมรหัสผ่าน</h4>
+                </div>
+                <div class="shadow-sm bg-for-pass">
+                    <div class="d-flex">  
+                        <div class="mr-2 p-2">
+                            <i class="fa-solid fa-volume-high"></i>
+                            <span>เป็นการลืมรหัสผ่านของผู้ใช้งานที่เป็นพนักงาน</span>
+                            <p>กรณี ชื่อผู้ใช้งาน ที่เป็น “อีเมล” ต้องการเปลี่ยนรหัสผ่านใหม่ กรุณาติดต่อ ผู้ดูแลระบบของท่านเพื่อให้ดำเนินการ</p>
+                        </div>
                     </div>
+                </div>
+                <div class="d-flex justify-content-center p-3">
+                    <h4> รีเซ็ตรหัสผ่าน</h4>
+                </div>
+                <div>
+                    <p class="m-0">ส่ง OTP ไปที่ xxxxx@gmail.com</p>  <p class="m-0">Ref. : MPB967</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <form action="" class="text-center">
+                        <input type="mail" class="form-control col-xl-12" id="exampleFormControlInput1" placeholder="xxxxx@gmail.com">
+                        <button class="but-form-register mt-2">ยืนยันรหัส OTP</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
+
+
+                <div class="d-flex justify-content-center">
+                    <div class="row">
+                       
+                    </div>
+                </div>
 
 <?php include ('combottom.php') ?>
 

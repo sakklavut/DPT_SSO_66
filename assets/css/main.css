@@ -30,10 +30,17 @@ body{
     background-color: #7B2B2A;
 }
 
-.shadow-menu{
-    box-shadow: 0px 2px 2px 0px #d9d9d9;
+.bg-for-pass{
+    background-color: #ffecec;
+    border-radius: 5px;
 }
 
+.shadow-menu{
+    box-shadow: 0px 2px 2px 0px #fdcd05;
+}
+.text-footer{
+    color: #fdcd05;
+}
 A:link {
     text-decoration:none;
 }
