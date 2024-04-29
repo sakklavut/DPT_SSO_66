@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>ระบบ Portal (Single Sing - on SSO) กรมโยธาธิการและผังเมือง</title>
+        <title>แพลตฟอร์ม ไอโอดีน</title>
         <link rel="stylesheet" href="assets/css/bootstrap_4.min.css">
         <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet">-->
         <link href="assets/css/main.css" rel="stylesheet"> 

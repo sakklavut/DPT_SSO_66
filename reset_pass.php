@@ -5,9 +5,15 @@
 
 </div>
 <div class="container main-content mt-3" id="confirm_thai_id">
+
     <div class="row" id="box">
         <div class="col-xl-12 align-self-center">
             <div class="shadow-sm p-3 mb-5 bg-white rounded">
+            <div class="row">
+        <div class="col-xl-12 text-center">
+            <img src="assets/images/Logo_main_2.png" class="logo_main_form" alt="">
+        </div>
+    </div>
                 <div>
                     <h4 class="text-confirm">ลืมรหัสผ่าน</h4>
                 </div>

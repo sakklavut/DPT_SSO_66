@@ -1,4 +1,64 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div id="grad1" class="main-content">
+
+<div class="container d-flex justify-content-center">
+     <div class="box_session">
+          <span class="text_book_new">หนังสือยอดนิยม</span> 
+     </div>
+</div>
+<div class="container">
+     <div class="owl-carousel owl-theme" id="popular_books">
+          <div class="item">
+               <div>
+                    <h1>1</h1>
+               </div>
+          </div>
+         
+          
+         
+          
+          
+          
+        
+          
+          
+     </div>
+</div>
+
+
+
+<script>
+  $('#popular_books').owlCarousel({
+    loop:true,
+    margin:10,
+//     nav:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+
 
     <div class="box-banner mt-3">
         <div class="container ">

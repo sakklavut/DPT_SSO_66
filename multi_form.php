@@ -81,7 +81,35 @@
                                                 </div>
                                             </div>
                                          </div>
-                                </div>
+                                          <div class="row">
+                                                <div class="col-xl-12">
+                                                    <small class="text-danger">
+                                                        <div class="row">
+                                                            <div class="d-flex">
+                                                                <div class="m-1">
+                                                                    หมายเหตุ :
+                                                                </div>
+                                                                <div class="m-1">
+                                                                เพิกถอนความยินยอมในข้อตกลงการใช้บริการฯ หมายถึงท่านไม่ยอมรับข้อตกลงในการใช้บริการฯ 
+                                                                ไม่่อนุญาตให้ทำการเก็บรวบรวม ใช้ หรือเผยแพร่ข้อมูลส่วนบุคคลของท่านอีกต่อไป
+                                                                ระบบจะลบข้อมูลของท่านทั้งหมด และท่านจะได้สามารถใช้บริการระบบ SSO ได้  
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </small>
+                                                </div>
+                                          </div>
+                                          <div class="row">
+                                            <div class="col-xl-12 text-center">
+                                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+                                                ยกเลิกการยอมรับข้อตกลง
+                                            </button>
+                                                
+                                            </div>
+                                          </div>
+
+
+                        </div>
                                 <input type="button" name="next" class="next action-button" value="ขั้นตอนต่อไป"/>
                             </fieldset>
                             <fieldset>
@@ -137,7 +165,40 @@
 </div>
 
 
+<!-- Modal -->
 
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+   
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+          <div class="row">
+               <div class="col-xl-12 text-center">
+                    <i class="fa-solid fa-check"></i>
+               </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">
+                ท่านจะไม่สามารถใช้บริการ SSO ได้หลังจากเพิกถอนความยินยอม 
+                ต้องการดำเนินการต่อหรือไม่ 
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-xl-12">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">เพิกถอนความยินยอม</button>
+                <button type="button" class="btn btn-secondary ">ยกเลิก</button>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
 
 <?php include ('combottom.php') ?>
 
